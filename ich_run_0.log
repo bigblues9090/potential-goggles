@@ -1,0 +1,1486 @@
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[Cos_InetMgr]:0x80a10b00 create OK
+11-25 02:08:28(47355904) cos INFO: [Cos_TimerMgrStartProc:135]timer mgr start proc
+11-25 02:08:28(1849847808) cos INFO: [Cos_ThreadProc:199]thread[Cos_InetMgr]:0x80a10b00 , threadid:1849847808 start ok
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[COS_TIMER]:0x80a16c00 create OK
+11-25 02:08:28(1849962496) cos INFO: [Cos_ThreadProc:199]thread[COS_TIMER]:0x80a16c00 , threadid:1849962496 start ok
+11-25 02:08:28(1849962496) cos INFO: [Cos_TimerMgrProc:111]timer mgr start proc OK
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[COS_PID_MGR]:0x80a16b80 create OK
+11-25 02:08:28(47355904) cos INFO: [Cos_PidMgrStart:28]Cos_PidMgrStart g_stPidMgr.hPidMgrQueue is : 81b04ff0
+11-25 02:08:28(1850077184) cos INFO: [Cos_ThreadProc:199]thread[COS_PID_MGR]:0x80a16b80 , threadid:1850077184 start ok
+11-25 02:08:28(1850077184) cos INFO: [Cos_PidMgrProc:52]pidmgr start OK
+11-25 02:08:28(47355904) cos INFO: [Cos_SysInit:87]Cos init ok
+11-25 02:08:28(47355904) PID_MEFC_MP4MUXER INFO: [Mefc_Mp4Muxer_Init:34]mp4 muxer init ok
+11-25 02:08:28(47355904) PID_MEAU INFO: [Meau_AUC_Init:36]auther task init
+11-25 02:08:28(47355904) PID_MEFC_MP4MUXER INFO: [Mefc_Mp4DeMuxer_Init:30]mp4 demuxer init ok
+11-25 02:08:28(47355904) PID_MEFC_READER INFO: [Mefc_LCR_Init:78]init ok
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 18446744073709551615 Need [Query:DEV-INFO]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_Load:647][18446744073709551615] Cfg Is Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadAttention:675]/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_attention.db Is Not Exist 
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[PID_MECF]:0x80a16b00 create OK
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_Init:77]Mecf Init Ok. CID:0 SDK VERSION: SERVICE:STREAMER
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_SetAuthInf:348]Set Auth Inf 
+11-25 02:08:28(1850191872) cos INFO: [Cos_ThreadProc:199]thread[PID_MECF]:0x80a16b00 , threadid:1850191872 start ok
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CompanyId:220]CFG_OP Owner CompanyId Changed
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CompanyKey:251]CFG_OP Owner CompanyKey Changed
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_AppId:281]CFG_OP Owner Appid Changed
+11-25 02:08:28(47355904) cos ERR: [Mecf_ParamSet_License:97]inparam err ((_VOID *)(pucLicense)) == COS_NULL
+11-25 02:08:28(47355904) cos ERR: [Mecf_ParamSet_Symbol:127]inparam err ((_VOID *)(pucsymbol)) == COS_NULL
+11-25 02:08:28(47355904) STR_CACHE INFO: [Medt_AStreamCache_Init:51]audio cache init ok
+11-25 02:08:28(47355904) rawcache INFO: [Medt_Vraw_Init:94]raw mng init ok
+11-25 02:08:28(47355904) SHVIDEO INFO: [Medt_ShvR_Init:22]short video init ok 
+11-25 02:08:28(47355904) play_cache INFO: [Medt_VideoPlayCache_Init:43]video play cache init ok
+11-25 02:08:28(47355904) PID_MERD_DATA INFO: [Merd_Data_Init:19]init ok
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[HttpClientThread]:0x80a10e80 create OK
+11-25 02:08:28(47355904) PID_HTTP INFO: [Tras_Httpclient_Init:157]Httpclient Initialize success!
+11-25 02:08:28(1850306560) cos INFO: [Cos_ThreadProc:199]thread[HttpClientThread]:0x80a10e80 , threadid:1850306560 start ok
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasBase_Alloc:208]Malloc TrasBase Success. Addr is 0x103869e00
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasServiceInfo_FindByName:827]Find Service serviceName is MONITOR, Service Ptr is 0x0 
+
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasServiceInfo_Create:666]TrasServiceInfo_Create Service Create Name is MONITOR, Version is 3.0.0 
+
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasServiceInfo_CreateStream:686]Register Service Name is MONITOR
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasServiceInfo_FindByName:827]Find Service serviceName is DUPLEXCHANNEL, Service Ptr is 0x0 
+
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasServiceInfo_Create:666]TrasServiceInfo_Create Service Create Name is DUPLEXCHANNEL, Version is 3.0.0 
+
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasServiceInfo_CreateStream:696]Register Service Name is DUPLEXCHANNEL
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[TrasFlowThread]:0x80a10600 create OK
+11-25 02:08:28(1850421248) cos INFO: [Cos_ThreadProc:199]thread[TrasFlowThread]:0x80a10600 , threadid:1850421248 start ok
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[TrasEventCBThread]:0x80a10d00 create OK
+11-25 02:08:28(1850535936) cos INFO: [Cos_ThreadProc:199]thread[TrasEventCBThread]:0x80a10d00 , threadid:1850535936 start ok
+11-25 02:08:28(1850535936) PID_TRAS INFO: [TrasBase_EventThread:367]Thread Status Proc is Create.
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[TunnelRecvThread]:0x80a10680 create OK
+11-25 02:08:28(1850650624) cos INFO: [Cos_ThreadProc:199]thread[TunnelRecvThread]:0x80a10680 , threadid:1850650624 start ok
+11-25 02:08:28(1850650624) PID_TRAS INFO: [TrasBase_TunnelRecvThread:407]Thread Status Proc is Create.
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[TunnelSendThread]:0x80a11180 create OK
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasBase_StartThread:124]Tras Init the thread running success!
+11-25 02:08:28(47355904) PID_TRAS INFO: [Tras_SetCfgChannelCallback:72][Tras_SetCfgChannelCallback, 72]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_SDKVersion:307]CFG_OP [18446744073709551615] SDK Version Change From  To 3.3.6
+11-25 02:08:28(1850830848) cos INFO: [Cos_ThreadProc:199]thread[TunnelSendThread]:0x80a11180 , threadid:1850830848 start ok
+11-25 02:08:28(1850830848) PID_TRAS INFO: [TrasBase_TunnelSendThread:443]Thread Status Proc is Create.
+11-25 02:08:28(47355904) PID_TRAS INFO: [Tras_SetDevBaseInfChgFlag:154]tras set base dev inf change flag
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281305760] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:28(47355904) PID_MECS INFO: [Mecs_Init:17]mecs init ok
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_EngineSet:105]sdk[RVSSDK_VERSION_3.3.6.2017.11.16_10399_Beta] init succeeded [Mar 21 2019 16:08:17]  SVN[$Revision: 11406 $] Commit[$Date: 2019-03-21 11:27:54 +0800 (Thu, 21 Mar 2019) $]
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_SysInit:44]sdk init Service:0 WorkPath:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/ CachePath:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Record/
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[FerryThread]:0x80a16d00 create OK
+11-25 02:08:28(1850945536) cos INFO: [Cos_ThreadProc:199]thread[FerryThread]:0x80a16d00 , threadid:1850945536 start ok
+11-25 02:08:28(47355904) PID_CBAU INFO: [Cbau_Init:62]usr use system flag is 0
+11-25 02:08:28(47355904) PID_CBCD_STREAMER INFO: [Cbcd_Mgr_Init:35]cbcd streamer init ok!
+11-25 02:08:28(47355904) PID_CBDT INFO: [Cbdt_Init:31]init ok
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_motion.db Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_motion.bak Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBus320Cfg:1412][18446744073709551615] Cfg /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/18446744073709551615/extra.db Not Exist
+11-25 02:08:28(47355904) CBDT_MCFG ERR: [Cbdt_MCfg_Load_320:22]Load Cfg Len:0 Failed 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_RegCfgFun:259]Module B_ALARMRECORD [33] Set Dl Fun [0x1023eddec] Ul Fun [0x1023edf3c]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_RegCfgFun:273]SUPPORT-INF BUSS:B_ALARMRECORD PID:33 [SUPPORT]
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_SupportOnChangeFun:236]Listen Support... 33 Support Haha
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_sensor.db Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_sensor.bak Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBus320Cfg:1412][18446744073709551615] Cfg /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/18446744073709551615/extra.db Not Exist
+11-25 02:08:28(47355904) CBDT_SCFG ERR: [Cbdt_SCfg_Load_320:22]Load Cfg Len:0 Failed 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_RegCfgFun:259]Module B_SENSOR [7] Set Dl Fun [0x1023f1530] Ul Fun [0x1023f1680]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_RegCfgFun:273]SUPPORT-INF BUSS:B_SENSOR PID:7 [SUPPORT]
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_SupportOnChangeFun:236]Listen Support... 7 Support Haha
+11-25 02:08:28(47355904) PID_CBMD_CDOWN_LIST INFO: [Cbmd_CDown_FileListInit:1959]Init ok
+11-25 02:08:28(47355904) PID_CBMD_CDOWN_FACE INFO: [Cbmd_CDown_FaceListInit:617]Init ok
+11-25 02:08:28(47355904) PID_CBMD_FACE_ICON INFO: [Cbmd_CDown_FaceIconInit:522]init ok
+11-25 02:08:28(47355904) PID_CBMD_CDOWN_LIST INFO: [Cbmd_CDown_FaceDetectListInit:2838]Init ok
+11-25 02:08:28(47355904) PID_CBMD_CDOWN_NOFACE_LIST INFO: [Cbmd_CDown_NofaceListInit:773]Init ok
+11-25 02:08:28(47355904) PID_CBMD_FILE_ICON INFO: [Cbmd_CDown_FileIconInit:777]init ok
+11-25 02:08:28(47355904) PID_CBMD_FILE_ICON INFO: [Cbmd_CDown_CoverIconInit:1096]init ok
+11-25 02:08:28(47355904) PID_CBMD_CDOWN_DECPAKT INFO: [Cbmd_Cdown_DecPackectInit:20]init ok
+11-25 02:08:28(47355904) PID_CBMD_LIST_GROUP INFO: [Cbmd_CDown_ListGroupInit:19]init ok
+11-25 02:08:28(47355904) PID_CBMD_DEL INFO: [Cbmd_CDown_DelInit:19]init ok
+11-25 02:08:28(47355904) PID_CDOWN_DATA ERR: [Cbcs_CDown_DataInit:15]init ok
+11-25 02:08:28(47355904) PID_CBMD_CDOWN INFO: [Cbmd_CDown_Init:28]init ok
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[Cbmd_PlayerBus_Task]:0x80a11280 create OK
+11-25 02:08:28(47355904) PID_CBMD_PLAYER WARN: [Cbmd_PlayerBus_Init:25]player init
+11-25 02:08:28(47355904) PID_TRAS INFO: [Tras_SetMediaChannelCallback:83][Tras_SetMediaChannelCallback, 83]
+11-25 02:08:28(47355904) PID_CBMD_FILE INFO: [Cbmd_File_Init:35]init ok
+11-25 02:08:28(1851060224) cos INFO: [Cos_ThreadProc:199]thread[Cbmd_PlayerBus_Task]:0x80a11280 , threadid:1851060224 start ok
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_shortvideo.db Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_shortvideo.bak Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBus320Cfg:1412][18446744073709551615] Cfg /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/18446744073709551615/extra.db Not Exist
+11-25 02:08:28(47355904) CBSV_CFG ERR: [Cbsv_Cfg_Load_320:22]Load Cfg Len:0 Failed 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_RegCfgFun:259]Module B_SHORTRECORD [20] Set Dl Fun [0x102427044] Ul Fun [0x1024271d4]
+11-25 02:08:28(47355904) PID_CBSV INFO: [Cbsv_Init:18]CBSV Init OK!
+11-25 02:08:28(47355904) PID_MEFC_READER INFO: [Mefc_LCR_SetFullPathFunc:161]set call back
+11-25 02:08:28(47355904) PID_MEFC_READER INFO: [Mefc_LCR_SetMediaTypeFunc:131]set call back
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_timing.db Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBusCfg:1348][18446744073709551615] /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/bus/bus_timing.bak Not Exist
+11-25 02:08:28(47355904) PID_MECF WARN: [Mecf_LoadBus320Cfg:1412][18446744073709551615] Cfg /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/18446744073709551615/extra.db Not Exist
+11-25 02:08:28(47355904) CBRD_CFG ERR: [Cbrd_Cfg_Load_320:23]Load Cfg Len:0 Failed 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_RegCfgFun:259]Module B_TIMERECORD [4] Set Dl Fun [0x1023e43f4] Ul Fun [0x1023e4544]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_RegCfgFun:273]SUPPORT-INF BUSS:B_TIMERECORD PID:4 [SUPPORT]
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_SupportOnChangeFun:236]Listen Support... 4 Support Haha
+11-25 02:08:28(47355904) CBRD_MP4 INFO: [Cbrd_Mp4Init:41]Mp4 record init local  path /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Record 
+11-25 02:08:28(47355904) PID_CBRD INFO: [Cbrd_SetGetDiskSizeFun:188][MGR SET CB] Del File Callback
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_AppVersion:1506]CFG_OP APP Version Change From  To 4.0.7
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [DEV-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300e70] [ENG] DEV-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x280713480] Need To SYNC:[DEV-INFO] Content:2
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_StorageMode:1363]CFG_OP Set The Same Storage Mode:2 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamGet_Region:553]CFG_OP [18446744073709551615] Get AuthRegion:0 RequestRegion:0
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setCameraCount:]:400]SA Streamer setCameraCount[1]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamCount:780]CFG_OP Set The Same Cam Count:1 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamPtzMove:1070]CFG_OP Cam[0] PTZMOVE:[0->1]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [CAM-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300f20] [ENG] CAM-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x2807134d0] Need To SYNC:[CAM-INFO] Content:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamTorchMode:1095]CFG_OP Cam[0] TORCH:[0->1]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [CAM-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300f20] [ENG] CAM-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x2807134d0] Need To SYNC:[CAM-INFO] Content:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamRotateMode:1120]CFG_OP Cam[0] ROTATE:[0->1]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [CAM-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300f20] [ENG] CAM-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x2807134d0] Need To SYNC:[CAM-INFO] Content:0
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setStreamCount:ForCamera:]:430]SA Streamer set camindex[0] streamcount[1]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamStreamCount:920]CFG_OP Cam[0] Stream Count Change From 0 To 1
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [CAM-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300f20] [ENG] CAM-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x2807134d0] Need To SYNC:[CAM-INFO] Content:0
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setCameraCapacity:ForCamera:]:717]SA Streamer set camindex[0] cameraCapacity PTZMoveMode[7] torchMode[1] rotateMode[1] streamMode[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamPtzMove:1070]CFG_OP Cam[0] PTZMOVE:[1->7]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [CAM-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300f20] [ENG] CAM-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x2807134d0] Need To SYNC:[CAM-INFO] Content:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamTorchMode:1102]CFG_OP Set The Same Cam[0] TORCH:1
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamRotateMode:1127]CFG_OP Set The Same Cam[0] ROTATE:1
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_CamDefinition:987]CFG_OP Cam[0] Definition Change From 0 To 5
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [CAM-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300f20] [ENG] CAM-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x2807134d0] Need To SYNC:[CAM-INFO] Content:0
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setCameraStreamProperty:ForCamera:Stream:]:470]SA Streamer set camindex[0] streamindex[0] CameraStreamProperty videoType[2] width[640] height[480] bitRate[512] frameRate[15] iFrameInterval[30] imageQuality[90]
+11-25 02:08:28(47355904) MEDF_POOL INFO: [Medf_VPool_Create:63]creat vpool 0x282437cc0 
+11-25 02:08:28(47355904) STR_CACHE INFO: [Medt_VStream_OpenWriteChannel:331]video open write channel ok chanid is 0x102b27300 v type 10100 camereid 0 streamid 0 
+11-25 02:08:28(47355904) STR_CACHE INFO: [Medt_VStream_SetParameter:238]video set parameter width 640 height 480 video type 10100 
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setCameraStreamProperty:ForCamera:Stream:]:541]SA Streamer open video src channel success camindex[0] streamindex[0] sdkvideoType[10100] width[640] height[480], channelid[45249280]
+11-25 02:08:28(47355904) STR_CACHE INFO: [Medt_VWrite_AddRawCache:1070]camera 0 stream 0 attch chache info
+11-25 02:08:28(47355904) rawcache INFO: [Medt_VRaw_OpenWriteHandle:398]camera 0 stream 0 width 640 height 480 RaeType 21100 
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setCameraStreamProperty:ForCamera:Stream:]:572]SA Streamer open video yuv channel success camindex[0] streamindex[0] sdkvideoType[21100] width[640] height[480], channelid[-2125411360]
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setAudioProperty:ForMic:]:757]SA Streamer set micindex[0] AudioProperty audioType[1] samplerate[44100] channle[1] depth[16]
+11-25 02:08:28(47355904) MEDF_POOL INFO: [Medf_APool_Create:231]creat Apool 0x282437d00 
+11-25 02:08:28(47355904) STR_CACHE INFO: [Medt_AStream_OpenWriteChannel:311]audio cache creat alive write channel [0x102b27510] ok 
+11-25 02:08:28(47355904) STR_CACHE INFO: [Medt_AStream_SetParameter:234]set audio parameter sample is 44100 channel is 1 depth is 16 
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media setAudioProperty:ForMic:]:832]SA Streamer open audio channel success micidnex[0] sdkaudioType[40100] sampleRate[44100] channel[1] depth[16], channelid[45249808]
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer setLanguage:]:106]SA Streamer setLanguage [2]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_Language:1679]CFG_OP [18446744073709551615] Languane Change From 0 To 2 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [DEV-INFO] From UI
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300e70] [ENG] DEV-INFO [PUSH] [0] Message[0]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x280713480] Need To SYNC:[DEV-INFO] Content:3
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer login]:338]SA Streamer login
+11-25 02:08:28(47355904) PID_SA INFO: [-[Sa_Streamer_AuthInfo setLocalIp:]:77]SA Streamer setLocalIp [192.168.1.32]
+11-25 02:08:28(47355904) PID_TRAS INFO: [TrasServer_SetLocalIP:203]Reset Local IP 192.168.1.32 
+
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_Start:163] Start 
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_NtyModuleRun:296]Cbbs direct run  taskid{34] uiMsg[1000]
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_NtyModuleRun:296]Cbbs direct run  taskid{6] uiMsg[1000]
+11-25 02:08:28(47355904) PID_TRAS INFO: [Tras_SetCmdChannelCallback:61][Tras_SetCmdChannelCallback, 61]
+11-25 02:08:28(47355904) PID_TRAS INFO: [Tras_SetExtraChannelCallback:94][Tras_SetExtraChannelCallback, 94]
+11-25 02:08:28(47355904) PID_CBCD_STREAMER INFO: [Cbcd_Mgr_Start:52]cbcd streamer start ok!
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_NtyModuleRun:296]Cbbs direct run  taskid{33] uiMsg[1000]
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_NtyModuleRun:296]Cbbs direct run  taskid{7] uiMsg[1000]
+11-25 02:08:28(47355904) PID_CBDT INFO: [Cbdt_AddCusPlug:274]enter [0 1] [0x10241dbbc 0x10241dd1c 0x10241e1b0]
+11-25 02:08:28(47355904) CBDT_MCFG INFO: [Cbdt_MCfg_GetSchedules:496][18446744073709551615] Cam0 Get Schedules:0
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[PID_CBDT]:0x80a11500 create OK
+11-25 02:08:28(47355904) PID_CBDT INFO: [Cbdt_Start:68]Start ok!
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_NtyModuleRun:296]Cbbs direct run  taskid{4] uiMsg[1000]
+11-25 02:08:28(1851240448) cos INFO: [Cos_ThreadProc:199]thread[PID_CBDT]:0x80a11500 , threadid:1851240448 start ok
+11-25 02:08:28(47355904) PID_MERD INFO: [Merd_MgrLoad:21]Root Path Not Exist! Maybe The First Run
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[[MERD MGR]]:0x80a11980 create OK
+11-25 02:08:28(47355904) PID_MERD INFO: [Merd_Start:139]Module Start
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamGet_ServiceCloudFlag:1988]CFG_OP [18446744073709551615] SERVICE CLOUD Not Support
+11-25 02:08:28(47355904) CBDT_MCFG INFO: [Cbdt_MCfg_GetCloudFlag:201][18446744073709551615] Get CloudFlag:1
+11-25 02:08:28(47355904) PID_CBRD INFO: [Cbrd_MgrStart:58]StorageMode:2 Cloud Flag:0 AlarmRecordFlag:1 CloudFlag:1
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[[CBRD MGR]]:0x80a11a00 create OK
+11-25 02:08:28(47355904) cos INFO: [Cos_ThreadCreate:99]thread[Cbrd_CloudMgr]:0x80a11b00 create OK
+11-25 02:08:28(47355904) PID_CBRD INFO: [Cbrd_CloudMgrStart:32]CBRD[cloud] start ok
+11-25 02:08:28(47355904) PID_CBRD INFO: [Cbrd_Start:108]Start!
+11-25 02:08:28(47355904) PID_CBAU INFO: [Cbau_Start:1037]cbau task start
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamGet_SDKType:568]CFG_OP [18446744073709551615] Get Service:0
+11-25 02:08:28(47355904) PID_TRAS INFO: [Tras_SetPeerCallback:39][Tras_SetPeerCallback, 39]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamGet_User:424]CFG_OP [18446744073709551615] Get User:autsyuypq Pwd:dtahdsrvs
+11-25 02:08:28(1851355136) cos INFO: [Cos_ThreadProc:199]thread[[MERD MGR]]:0x80a11980 , threadid:1851355136 start ok
+11-25 02:08:28(1851469824) cos INFO: [Cos_ThreadProc:199]thread[[CBRD MGR]]:0x80a11a00 , threadid:1851469824 start ok
+11-25 02:08:28(1851469824) PID_CBRD INFO: [Cbrd_CompLoad:287]Compatible 2.0 File
+11-25 02:08:28(1851469824) PID_CBRD INFO: [Cbrd_Compatible20RdFile:139][FILE MGR] Compatible old file 
+11-25 02:08:28(1851584512) cos INFO: [Cos_ThreadProc:199]thread[Cbrd_CloudMgr]:0x80a11b00 , threadid:1851584512 start ok
+11-25 02:08:28(1851469824) PID_CBRD INFO: [Cbrd_Compatible320RdFile:277]Compatible 3.2.0 File Path:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Record
+11-25 02:08:28(1851469824) PID_CBRD INFO: [Cbrd_Compatible320TypeFile:242]Path:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Record/timing Is Not Exist
+11-25 02:08:28(1851469824) PID_CBRD INFO: [Cbrd_Compatible320TypeFile:242]Path:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Record/alarm Is Not Exist
+11-25 02:08:28(1851469824) PID_CBRD INFO: [Cbrd_CompLoad:290]Compatible End
+11-25 02:08:28(1851469824) CBRD_CFG INFO: [Cbrd_Cfg_GetSchedules:214][18446744073709551615] Cam0 Get Schedules:0
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_Device_GetName:222]Get Name :
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer deviceName]:310]SA Streamer get devicename error, devicename is NULL
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamGet_User:424]CFG_OP [18446744073709551615] Get User:autsyuypq Pwd:dtahdsrvs
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_User:366]CFG_OP User Change From autsyuypq To autsyadminuypq,Pwd Change From dtahdsrvs To dtah123456dsrvs
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_User:378]CFG_OP User Changed But Have Not Support Cloud
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 0 Changed [0]
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer userName]:265]SA Streamer get username error, username is NULL, set the default value :admin
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamGet_User:424]CFG_OP [18446744073709551615] Get User:autsyadminuypq Pwd:dtah123456dsrvs
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer pwd]:291]SA Streamer get pwd[123456]
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer CID]:182]SA Streamer get cid [0]
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:08:28(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[0]
+
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:799]processConfigChangeMsg onUpdateCID[0]
+
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer setUserName:andPwd:]:115]SA Streamer setUserName[user575] Pwd[096193]
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_User:366]CFG_OP User Change From autsyadminuypq To autsyuser575uypq,Pwd Change From dtah123456dsrvs To dtah096193dsrvs
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_ParamSet_User:378]CFG_OP User Changed But Have Not Support Cloud
+11-25 02:08:28(47355904) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 0 Changed [0]
+11-25 02:08:28(1850945536) PID_BASE INFO: [Cbbs_Device_GetName:222]Get Name :
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer deviceName]:310]SA Streamer get devicename error, devicename is NULL
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:816]processConfigChangeMsg onUpdateUserName[] Pwd[]
+
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:08:28(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[0]
+
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:799]processConfigChangeMsg onUpdateCID[0]
+
+11-25 02:08:28(1850945536) PID_BASE INFO: [Cbbs_Device_GetName:222]Get Name :
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer deviceName]:310]SA Streamer get devicename error, devicename is NULL
+11-25 02:08:28(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:816]processConfigChangeMsg onUpdateUserName[] Pwd[]
+
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 1 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 128 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 256 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 128 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 256 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) CBDT_MCFG INFO: [Cbdt_MCfg_SetHumanFlag:336][18446744073709551615] Set human detect From:0 To 0 
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 1 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 128 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 256 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:28(47355904) PID_APP ERR: [-[Rvs_Streamer logWithLogLevel:LogFormat:]:247]AdMobAdsManager: umeng close ad show
+11-25 02:08:28(1850421248) PID_TRAS INFO: [TrasBase_FlowThread:273]Thread Flow Proc is Create.
+11-25 02:08:28(1850421248) PID_TRAS INFO: [TrasBase_ProcNeedReq:186]Get LocalIP Success.
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media changeCameraStreamProperty:ForCamera:Stream:]:595]SA Streamer change camindex[0] streamindex[0] CameraStreamProperty videoType[2] width[640] height[480] bitRate[512] frameRate[15] iFrameInterval[30] imageQuality[90]
+11-25 02:08:28(47355904) STR_CACHE INFO: [Medt_VStream_SetParameter:238]video set parameter width 640 height 480 video type 10100 
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media changeCameraStreamProperty:ForCamera:Stream:]:673]SA Streamer change video src channel param success camindex[0] streamindex[0] sdkvideoType[10100] width[640] height[480], channelid[45249280]
+11-25 02:08:28(47355904) PID_SA INFO: [-[Rvs_Streamer_Media changeCameraStreamProperty:ForCamera:Stream:]:697]SA Streamer change video yuv channel param  success camindex[0] streamindex[0] sdkvideoType[21100] width[640] height[480], channelid[-2125411360]
+11-25 02:08:29(1850421248) cos INFO: [Cos_SocketOpen:394]socket<18> open ok
+11-25 02:08:29(1850421248) PID_HTTP INFO: [Tras_Httpclient_SendSyncGetRequest:944]Create Slot is 0x28151cdc0,Socket18,index 1 serv 52.8.124.20:80 URL /ip.php 
+11-25 02:08:29(47355904) PID_APP INFO: [-[Rvs_Streamer logWithLogLevel:LogFormat:]:239]AdMobAdsManager: native view load failed
+11-25 02:08:30(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151cdc0, Socket 18,index 1
+11-25 02:08:30(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_status.db
+11-25 02:08:30(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_ability.db
+11-25 02:08:30(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151cdc0, Socket is 18, Slot index is 1
+11-25 02:08:30(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151cdc0, Socket is 18, Slot is 1
+11-25 02:08:30(1850306560) cos INFO: [Cos_SocketClose:431]socket<18> closed
+11-25 02:08:30(1850421248) PID_HTTP INFO: [Tras_HttpClientSlot_ProcessSyncFinished:840]Tras_Httpclient_SendSyncPostRequest Response is {"code":0,"data":{"ip":"72.191.49.113","country_id":"US"}}
+ 
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_ParamGet_Language:1696]CFG_OP [18446744073709551615] Get Language:2 
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_ParamSet_CountryId:1719]CFG_OP [18446744073709551615] COUNTRY ID Change From  To US
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [DEV-INFO] From UI
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300e70] [ENG] DEV-INFO [PUSH] [0] Message[0]
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x280713480] Need To SYNC:[DEV-INFO] Content:43
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_ParamSet_DeviceIP:1932]CFG_OP [18446744073709551615] DEVICE IP Change From  To 72.191.49.113
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [DEV-INFO] From UI
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281300e70] [ENG] DEV-INFO [PUSH] [0] Message[0]
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x280713480] Need To SYNC:[DEV-INFO] Content:1043
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_ParamGet_CountryId:1733]CFG_OP [18446744073709551615] Get COUNTRY ID:US 
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_ParamGet_Language:1696]CFG_OP [18446744073709551615] Get Language:2 
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_ParamGet_Language:1696]CFG_OP [18446744073709551615] Get Language:2 
+11-25 02:08:30(1850421248) PID_MECF INFO: [Mecf_ParamGet_CountryId:1733]CFG_OP [18446744073709551615] Get COUNTRY ID:US 
+11-25 02:08:30(1850421248) PID_TRAS INFO: [TrasAddr_GetServAddr:130]Get addr Language =2 nettype 0 
+11-25 02:08:30(1850421248) cos INFO: [Cos_SocketOpen:394]socket<18> open ok
+11-25 02:08:30(1850421248) PID_HTTP INFO: [Tras_Httpclient_SendSyncGetRequest:944]Create Slot is 0x28151d7c0,Socket18,index 1 serv 52.8.124.20:80 URL /servAuthAddr.php?cid=0&companyid=84xdgl07yz09&appid=19failip= 
+11-25 02:08:31(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151d7c0, Socket 18,index 1
+11-25 02:08:31(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151d7c0, Socket is 18, Slot index is 1
+11-25 02:08:31(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151d7c0, Socket is 18, Slot is 1
+11-25 02:08:31(1850306560) cos INFO: [Cos_SocketClose:431]socket<18> closed
+11-25 02:08:31(1850421248) PID_HTTP INFO: [Tras_HttpClientSlot_ProcessSyncFinished:840]Tras_Httpclient_SendSyncPostRequest Response is serv=0&info=3.213.145.94:80\r\n 
+11-25 02:08:31(1850421248) PID_MECF INFO: [Mecf_ParamSet_AuthAddr:614]CFG_OP [18446744073709551615] Set :3.213.145.94:80
+11-25 02:08:31(1850421248) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:31(1850421248) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281305760] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:31(1850421248) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:31(1850421248) PID_TRAS INFO: [TrasBase_ProcNeedReq:209]Get ServerIP Success.
+11-25 02:08:31(1850421248) cos INFO: [Cos_SocketOpen:394]socket<18> open ok
+11-25 02:08:31(1850421248) PID_TRAS INFO: [TrasServer_Listen:247]Listen success, the port is 10648.
+11-25 02:08:31(1850421248) cos INFO: [Cos_SocketOpen:394]socket<34> open ok
+11-25 02:08:31(1850421248) PID_MECF INFO: [Mecf_ParamGet_User:424]CFG_OP [18446744073709551615] Get User:autsyuser575uypq Pwd:dtah096193dsrvs
+11-25 02:08:31(1850421248) PID_TRAS INFO: [Tras_SetCidInfo:193]NeedReg Flag is 1, CID is 0 
+
+11-25 02:08:31(1850421248) PID_TRAS INFO: [Tras_ProcAutherInitStatus:912]auther init addr flag 1,auther status 10 ,ucSelfAutherFlag = 0
+11-25 02:08:31(1850535936) PID_CBAU INFO: [Cbau_ReportSelfDevAutherStatus:104]report self dev auther status 3:dev autherd uiCode 0
+11-25 02:08:31(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 0 From srcPid[15]
+
+11-25 02:08:31(1850945536) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]:1010]processAuthStateUpdateMsg authState[3] errorCode[0]
+
+11-25 02:08:31(1843998720) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]_block_invoke:1080]processAuthStateUpdateMsg oldAuthState[1] oldprogress[0] oldErrCode[0]
+
+11-25 02:08:31(1850421248) PID_MEAU INFO: [Meau_GetOneEventId:473]preget EventId 2
+11-25 02:08:31(1850421248) PID_MEAU INFO: [Meau_GetUsrNode:514]EventId 2 reqType 20,des:Dev auther from Auth center,begain send
+11-25 02:08:31(1850421248) PID_MEAU INFO: [Meau_AUC_SelfAppQuery:1717]EventId 2 requst 
+11-25 02:08:31(1850421248) cos INFO: [Cos_SocketOpen:394]socket<36> open ok
+11-25 02:08:31(1850421248) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151cdc0, Socket 36,index is 3 serv 3.213.145.94:80 Url h/app/query
+11-25 02:08:32(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_status.db
+11-25 02:08:32(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x281305760] BroadCast [ENG] AUTH [PUSH]
+11-25 02:08:32(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x281305760] CMD TYPE:1  Content:0
+11-25 02:08:32(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x281300e70] BroadCast [ENG] DEV-INFO [PUSH]
+11-25 02:08:32(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x281300e70] CMD TYPE:1  Content:5
+11-25 02:08:32(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x281300f20] BroadCast [ENG] CAM-INFO [PUSH]
+11-25 02:08:32(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x281300f20] CMD TYPE:1  Content:1
+11-25 02:08:32(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151cdc0, Socket 36,index 3
+11-25 02:08:32(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151cdc0, Socket is 36, Slot index is 3
+11-25 02:08:32(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:254]EventId 2 ReqType 20 des Dev auther from Auth center,rsp len 48
+11-25 02:08:32(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x38c9400] uiLen[48]
+11-25 02:08:32(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:265]EventId 2 ReqType 20 rsp is {"code":1000,"data":{"auth_type":2,"os_type":2}} 
+11-25 02:08:32(1850306560) PID_MECF INFO: [Mecf_ParamSet_OsType:472]CFG_OP [18446744073709551615] OsType Change From:0 To:2
+11-25 02:08:32(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:32(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x2813080b0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:32(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:32(1850306560) PID_MECF INFO: [Mecf_SetAuthStatus:871][18446744073709551615] Auth Status Change From 0 To 1,Time[0-1574669312]
+11-25 02:08:32(1850306560) PID_TRAS INFO: [Tras_Auther_ProcAppQueryRsp:86]truns auther status to autherd
+11-25 02:08:32(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151cdc0, Socket is 36, Slot is 3
+11-25 02:08:32(1850306560) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:08:32(1850421248) PID_MEAU INFO: [Meau_GetOneEventId:473]preget EventId 3
+11-25 02:08:32(1850421248) PID_MEAU INFO: [Meau_GetUsrNode:514]EventId 3 reqType 29,des:Dev get service addr from Auth center,begain send
+11-25 02:08:32(1850421248) PID_MECF INFO: [Mecf_ParamGet_ISPId:1911]CFG_OP [18446744073709551615] Get ISP ID: 
+11-25 02:08:32(1850421248) PID_MECF INFO: [Mecf_ParamGet_SDKType:568]CFG_OP [18446744073709551615] Get Service:0
+11-25 02:08:32(1850421248) PID_MEAU INFO: [Meau_AUC_QueryServiceRouteInf:2335]EventId 3 requst body {"company_id":"84xdgl07yz09","isp_id":"","app_id":"19","service":"0","system_list":[{"system_id":"1"},{"system_id":"3"},{"system_id":"4"},{"system_id":"5"}]}
+11-25 02:08:32(1850421248) cos INFO: [Cos_SocketOpen:394]socket<36> open ok
+11-25 02:08:32(1850421248) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151d7c0, Socket 36,index is 4 serv 3.213.145.94:80 Url h/route/query/service
+11-25 02:08:33(1851469824) CBRD_CFG INFO: [Cbrd_Cfg_GetDelNDayFlag:84][18446744073709551615] Get DelNDayFlag:0
+11-25 02:08:33(1851469824) PID_CBRD INFO: [Cbrd_MgrCheckDisk:277][D_A_FILE] disk total244130;free 233875 rsv 0 need free 0 release 0
+11-25 02:08:33(1856581632) PID_MECF INFO: [Mecf_ParamGet_DeviceIP:1946]CFG_OP [18446744073709551615] Get DEVICE IP:72.191.49.113 
+11-25 02:08:33(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151d7c0, Socket 36,index 4
+11-25 02:08:34(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_certificate.db
+11-25 02:08:34(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_devinf.db
+11-25 02:08:34(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151d7c0, Socket is 36, Slot index is 4
+11-25 02:08:34(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:254]EventId 3 ReqType 29 des Dev get service addr from Auth center,rsp len 296
+11-25 02:08:34(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3840000] uiLen[296]
+11-25 02:08:34(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:265]EventId 3 ReqType 29 rsp is {"code":1000,"data":{"route":{"auth_region":"2","request_region":"2","urls":[{"host":"http://3.213.145.94:80/info","system":"1"},{"host":"http://3.213.145.94:80/message","system":"3"},{"host":"http://13.52.54.27:80/ichanomanager/aws","system":"4"},{"host":"90.84.241.1:3678","system":"5"}]}}}     
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_ParamSet_Region:532]CFG_OP [18446744073709551615] AuthRegion Change From:0 To:2  AuthRegion Change From:0 To:2
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x2813080b0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_ParamSet_InfoAddr:676]CFG_OP [18446744073709551615] Set :http://3.213.145.94:80/info
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x2813080b0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_ParamSet_PushAddr:736]CFG_OP [18446744073709551615] Set :http://3.213.145.94:80/message
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x2813080b0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_ParamSet_CloudAddr:582]CFG_OP [18446744073709551615] Set CloudAddr From: To http://13.52.54.27:80/ichanomanager/aws
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x2813080b0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_ParamSet_CommAddr:645]CFG_OP [18446744073709551615] Set :90.84.241.1:3678
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x2813080b0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:34(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:34(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151d7c0, Socket is 36, Slot is 4
+11-25 02:08:34(1850306560) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_ProcState:354]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_STARTCONN
+11-25 02:08:34(1850535936) PID_CBAU INFO: [Cbau_ReportSelfDevAutherStatus:104]report self dev auther status 4:dev connect server uiCode 0
+11-25 02:08:34(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_STARTCONN
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 0 From srcPid[15]
+
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]:1010]processAuthStateUpdateMsg authState[4] errorCode[0]
+
+11-25 02:08:34(1844572160) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]_block_invoke:1080]processAuthStateUpdateMsg oldAuthState[1] oldprogress[0] oldErrCode[0]
+
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_Connect:256]ServerIP is 90.84.241.1, Port is 3678 failcnt 0 status 0 local cid 0 
+11-25 02:08:34(1850421248) cos INFO: [Cos_SocketOpen:394]socket<35> open ok
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_ProcState:368]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_CONNECTING
+11-25 02:08:34(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_CONNECTING
+11-25 02:08:34(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_CONNECTED
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_SendRegisterRequest:582]Tras_Server Send Register Request.
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_ProcState:406]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_REGISTING
+11-25 02:08:34(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_REGISTING
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:904]TrasServer_ProcessRegisterResponse ResultFlag: 0
+
+11-25 02:08:34(1850421248) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 0 Changed [0]
+11-25 02:08:34(1850421248) PID_MECF INFO: [Mecf_ParamSet_Cid:64]CFG_OP Owner Cid:84010959 
+11-25 02:08:34(1850421248) PID_TRAS ERR: [TrasLansearch_StartSearch:145]IPV6 and avs Not Search.
+11-25 02:08:34(1850421248) PID_MEAU INFO: [Meau_GetOneEventId:473]preget EventId 4
+11-25 02:08:34(1850421248) PID_MEAU INFO: [Meau_GetUsrNode:514]EventId 4 reqType 21,des:Dev regist from Auth center,begain send
+11-25 02:08:34(1850421248) PID_MECF INFO: [Mecf_ParamGet_SDKType:568]CFG_OP [18446744073709551615] Get Service:0
+11-25 02:08:34(1850421248) PID_MEAU INFO: [Meau_AUC_SelfDevRegist:1781]EventId 4 requst body cid 84010959
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:08:34(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[0]
+
+11-25 02:08:34(1850945536) PID_MECF INFO: [Mecf_ParamGet_OsType:517]CFG_OP [18446744073709551615] Get OsType:2
+11-25 02:08:34(1850945536) PID_MECF INFO: [Mecf_ParamGet_User:424]CFG_OP [18446744073709551615] Get User:autsyuser575uypq Pwd:dtah096193dsrvs
+11-25 02:08:34(1850945536) PID_BASE INFO: [Cbbs_GetAuthInf:213][18446744073709551615] Get Cid:84010959 OsType:2 platVersion:3.3.6 AppId:19
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:799]processConfigChangeMsg onUpdateCID[84010959]
+
+11-25 02:08:34(1850421248) cos INFO: [Cos_SocketOpen:394]socket<36> open ok
+11-25 02:08:34(47355904) PID_SA INFO: [-[Rvs_Streamer setDeviceName:]:298]SA Streamer set deviceName[iOS0959]
+11-25 02:08:34(1850421248) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151cdc0, Socket 36,index is 5 serv 3.213.145.94:80 Url h/device/register
+11-25 02:08:34(1850945536) PID_BASE INFO: [Cbbs_Device_GetName:222]Get Name :
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer deviceName]:310]SA Streamer get devicename error, devicename is NULL
+11-25 02:08:34(47355904) PID_MECF INFO: [Mecf_ParamSet_DevName:1540]CFG_OP [18446744073709551615] Device Name Change From  To iOS0959
+11-25 02:08:34(47355904) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [DEV-INFO] From UI
+11-25 02:08:34(47355904) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x28130a050] [ENG] DEV-INFO [PUSH] [0] Message[0]
+11-25 02:08:34(47355904) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x280713480] Need To SYNC:[DEV-INFO] Content:104b
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:809]default deviceName is null,so set the device name:iOS0959
+11-25 02:08:34(1850945536) PID_MECF INFO: [Mecf_ParamSet_DevName:1546]CFG_OP [18446744073709551615] Set The Same Device Name:iOS0959 
+11-25 02:08:34(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:816]processConfigChangeMsg onUpdateUserName[user575] Pwd[096193]
+
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_ProcState:431]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_REGISTED
+11-25 02:08:34(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_REGISTED
+11-25 02:08:34(1850535936) PID_CBAU INFO: [Cbau_RecvCidInfo:824]cbau recv cid info cid 84010959 
+11-25 02:08:34(1850535936) PID_TRAS INFO: [TrasBase_EventThread:387]Server RegCID Callback: CID is 84010959
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_SendAllocateRequest:606]TrasServer Send Allocate Request. 
+11-25 02:08:34(1850421248) PID_TRAS INFO: [TrasServer_ProcState:451]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_ALLOCING
+11-25 02:08:35(1851584512) PID_CBRD INFO: [Cbrd_CloudFileInit:69]Create cloud event dir
+11-25 02:08:35(1851584512) PID_CBRD WARN: [Cbrd_Cloud_SVideoProc:842]CBRD[SVideo] not support cloud
+11-25 02:08:35(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_ALLOCING
+11-25 02:08:35(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:909]TrasServer_ProcessAllocateResponse ResultFlag: 0
+
+11-25 02:08:35(1850421248) PID_TRAS INFO: [TrasServer_ProcState:464]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_ALLOCTED
+11-25 02:08:35(1850535936) PID_MECF INFO: [Mecf_ParamGet_RegistFlag:199]CFG_OP Get AuthChangeFlag:0
+11-25 02:08:35(1850535936) PID_CBAU INFO: [Cbau_MediaServerStatus:791]wait for auther status 
+11-25 02:08:35(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_ALLOCTED
+11-25 02:08:35(1850421248) PID_TRAS INFO: [TrasServer_SendInfoPubRequest:654]Tras_Server Send InfoPub Request LocalIP Addr InfoPub: 192.168.1.32
+
+11-25 02:08:35(1850421248) PID_TRAS INFO: [TrasServer_SendInfoPubRequest:671]Tras_Server Send State Pub Request PubState is 0, UpdateState is 0
+11-25 02:08:35(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151cdc0, Socket 36,index 5
+11-25 02:08:35(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:924]TrasServer_InfoPub response 0
+11-25 02:08:35(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:924]TrasServer_InfoPub response 0
+11-25 02:08:35(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151cdc0, Socket is 36, Slot index is 5
+11-25 02:08:35(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:254]EventId 4 ReqType 21 des Dev regist from Auth center,rsp len 104
+11-25 02:08:35(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3161000] uiLen[104]
+11-25 02:08:35(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:265]EventId 4 ReqType 21 rsp is {"code":1000,"data":{"init_status":"2","symbol":"20115746693335439586","ts":"2019-11-25 03:08:53"}}      
+11-25 02:08:35(1850306560) PID_MECF INFO: [Mecf_ParamSet_RegistFlag:166]CFG_OP Set RegistFlag:2
+11-25 02:08:35(1850306560) PID_MECF INFO: [Mecf_ParamSet_RegistFlag:183]CFG_OP RegistFlag Change From:0 To:2
+11-25 02:08:35(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:35(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x2813080b0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:35(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:35(1850306560) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 4 Changed [0]
+11-25 02:08:35(1850306560) PID_MECF INFO: [Mecf_ParamSet_Symbol:145]CFG_OP Owner Symbol Changed
+11-25 02:08:35(1850306560) PID_TRAS INFO: [Tras_ProcDevRegistRsp:404]truns auther status to regist
+11-25 02:08:35(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151cdc0, Socket is 36, Slot is 5
+11-25 02:08:35(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:08:35(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:08:35(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[4]
+
+11-25 02:08:35(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:848]processConfigChangeMsg onUpdateSymbol[20115746693335439586]
+
+11-25 02:08:35(1850306560) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:08:36(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_certificate.db
+11-25 02:08:36(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_tsinf.db
+11-25 02:08:36(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x2813080b0] BroadCast [ENG] AUTH [PUSH]
+11-25 02:08:36(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x2813080b0] CMD TYPE:1  Content:0
+11-25 02:08:38(1850421248) PID_MEAU INFO: [Meau_GetOneEventId:473]preget EventId 5
+11-25 02:08:38(1850421248) PID_MEAU INFO: [Meau_GetUsrNode:514]EventId 5 reqType 30,des:usr querry Dev Reg status from Auth center,begain send
+11-25 02:08:38(1850421248) PID_MECF INFO: [Mecf_ParamGet_SDKType:568]CFG_OP [18446744073709551615] Get Service:0
+11-25 02:08:38(1850421248) PID_MEAU INFO: [Meau_AUC_QueryRegistStatus:2174]EventId 5 requst body {"cid":"84010959","service":"0","ts":"2019-11-25 03:08:53"}
+11-25 02:08:38(1850421248) cos INFO: [Cos_SocketOpen:394]socket<36> open ok
+11-25 02:08:38(1850421248) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151d7c0, Socket 36,index is 6 serv 3.213.145.94:80 Url h/device/queryInitStatus
+11-25 02:08:38(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_status.db
+11-25 02:08:38(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_devinf.db
+11-25 02:08:38(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x28130a050] BroadCast [ENG] DEV-INFO [PUSH]
+11-25 02:08:38(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130a050] CMD TYPE:1  Content:5
+11-25 02:08:38(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151d7c0, Socket 36,index 6
+11-25 02:08:39(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151d7c0, Socket is 36, Slot index is 6
+11-25 02:08:39(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:254]EventId 5 ReqType 30 des usr querry Dev Reg status from Auth center,rsp len 64
+11-25 02:08:39(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x315f000] uiLen[64]
+11-25 02:08:39(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:265]EventId 5 ReqType 30 rsp is {"code":1000,"data":{"cid":"84010959","init_status":"1"}}        
+11-25 02:08:39(1850306560) PID_MECF INFO: [Mecf_ParamSet_RegistFlag:166]CFG_OP Set RegistFlag:1
+11-25 02:08:39(1850306560) PID_MECF INFO: [Mecf_ParamSet_RegistFlag:183]CFG_OP RegistFlag Change From:2 To:1
+11-25 02:08:39(1850306560) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:08:39(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x28130ef70] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:08:39(1850306560) PID_MECF INFO: [Mecf_SyncAdd:68]SYNC_ENG [18446744073709551615] Not Need To SYNC:[AUTH]
+11-25 02:08:39(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151d7c0, Socket is 36, Slot is 6
+11-25 02:08:39(1850306560) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:08:39(1850535936) PID_CBAU INFO: [Cbau_ReportSelfDevAutherStatus:104]report self dev auther status 5:dev online uiCode 0
+11-25 02:08:39(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 0 From srcPid[15]
+
+11-25 02:08:39(1850945536) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]:1010]processAuthStateUpdateMsg authState[5] errorCode[0]
+
+11-25 02:08:39(1844572160) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]_block_invoke:1080]processAuthStateUpdateMsg oldAuthState[2] oldprogress[0] oldErrCode[0]
+
+11-25 02:08:39(1850191872) PID_MECF INFO: [Mecf_SyncEngToServer:501]SYNC_ENG [18446744073709551615] [OBJ:0x280713480] Update With:3.213.145.94/80 URL:/info/v3/device/0/update [148] Content:{"operator":"84010959","cid":"84010959","sign":"69788","language":"2","app_version":"4.0.7","name":"iOS0959","country_id":"US","ip":"72.191.49.113"}
+11-25 02:08:39(1850191872) cos INFO: [Cos_SocketOpen:394]socket<36> open ok
+11-25 02:08:39(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151cdc0, Socket 36,index is 7 serv 3.213.145.94:80 Url o/v3/device/0/update
+11-25 02:08:39(1850191872) PID_MECF INFO: [Mecf_SyncEngToServer:501]SYNC_ENG [18446744073709551615] [OBJ:0x2807134d0] Update With:3.213.145.94/80 URL:/info/v3/ability/0/update [288] Content:{"camera_info":{"sign":"106","count":"1","infos":[{"index":"0","stream_count":"1","stream_type":"0","pic_type":"0","rotation_angle":"0","yuv_mode":"0","ptzmove_mode":"7","torch_mode":"1","rotate_mode":"1","definition":"5","enc_mod":"0","name":""}]},"cid":"84010959","operator":"84010959"}
+11-25 02:08:39(1850191872) cos INFO: [Cos_SocketOpen:394]socket<38> open ok
+11-25 02:08:39(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x281511fe0, Socket 38,index is 8 serv 3.213.145.94:80 Url o/v3/ability/0/update
+11-25 02:08:39(1850191872) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 18446744073709551615 Need [Query:SERVICE-SUPPORT]
+11-25 02:08:39(1850191872) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 18446744073709551615 Need [Query:BUS-SUPPORT]
+11-25 02:08:39(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_tsinf.db
+11-25 02:08:40(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151cdc0, Socket 36,index 7
+11-25 02:08:40(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x281511fe0, Socket 38,index 8
+11-25 02:08:40(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_certificate.db
+11-25 02:08:40(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x28130ef70] BroadCast [ENG] AUTH [PUSH]
+11-25 02:08:40(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130ef70] CMD TYPE:1  Content:0
+11-25 02:08:41(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151cdc0, Socket is 36, Slot index is 7
+11-25 02:08:41(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x281511fe0, Socket is 38, Slot index is 8
+11-25 02:08:41(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3972200] uiLen[40]
+11-25 02:08:41(1850306560) PID_MECF INFO: [Mecf_SyncEngFinished:215]SYNC_ENG CID:18446744073709551615 [OBJ:0x280713480] SYNC:[DEV-INFO] success to server,
+11-25 02:08:41(1850306560) PID_TRAS INFO: [Tras_SetUpdateState:729]Streamer UpdateState is 21 
+
+11-25 02:08:41(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151cdc0, Socket is 36, Slot is 7
+11-25 02:08:41(1850306560) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:08:41(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3975600] uiLen[40]
+11-25 02:08:41(1850306560) PID_MECF INFO: [Mecf_SyncEngFinished:215]SYNC_ENG CID:18446744073709551615 [OBJ:0x2807134d0] SYNC:[CAM-INFO] success to server,
+11-25 02:08:41(1850306560) PID_TRAS INFO: [Tras_SetUpdateState:729]Streamer UpdateState is 32 
+
+11-25 02:08:41(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x281511fe0, Socket is 38, Slot is 8
+11-25 02:08:41(1850306560) cos INFO: [Cos_SocketClose:431]socket<38> closed
+11-25 02:08:41(1850421248) PID_TRAS INFO: [TrasServer_SendInfoPubRequest:671]Tras_Server Send State Pub Request PubState is 0, UpdateState is 53
+11-25 02:08:41(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:924]TrasServer_InfoPub response 0
+11-25 02:08:41(1850191872) PID_MECF INFO: [Mecf_QueryBusSupport:349]QUERY_INF [18446744073709551615] [http://3.213.145.94:80/info] [/info/v3/config/support/0/business] [48] Query {"operator":"84010959","cid":"84010959","ts":""}
+11-25 02:08:41(1850191872) cos INFO: [Cos_SocketOpen:394]socket<36> open ok
+11-25 02:08:41(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151d7c0, Socket 36,index is 9 serv 3.213.145.94:80 Url o/v3/config/support/0/business
+11-25 02:08:41(1850191872) PID_MECF INFO: [Mecf_QuerySrvSupport:385]QUERY_INF [18446744073709551615] [http://3.213.145.94:80/info] [/info/v3/config/support/0/service] [40] Query {"operator":"84010959","cid":"84010959"}
+11-25 02:08:41(1850191872) cos INFO: [Cos_SocketOpen:394]socket<38> open ok
+11-25 02:08:41(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x281510dc0, Socket 38,index is 10 serv 3.213.145.94:80 Url o/v3/config/support/0/service
+11-25 02:08:41(1850191872) PID_MECF INFO: [Mecf_QueryDeviceInf:275]QUERY_INF [18446744073709551615] [http://3.213.145.94:80/info] [/info/v3/device/0/query] [43] Query {"cid":84010959,"ts":"2019-11-25 03:08:57"}
+11-25 02:08:41(1850191872) cos INFO: [Cos_SocketOpen:394]socket<39> open ok
+11-25 02:08:41(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151dea0, Socket 39,index is 11 serv 3.213.145.94:80 Url o/v3/device/0/query
+11-25 02:08:41(1850191872) PID_MECF INFO: [Mecf_SyncEngRmvFinished:567]SYNC_ENG Rmv 18446744073709551615 [OBJ:0x280713480] SYNC:[DEV-INFO]
+11-25 02:08:41(1850191872) PID_MECF INFO: [Mecf_SyncEngRmvFinished:567]SYNC_ENG Rmv 18446744073709551615 [OBJ:0x2807134d0] SYNC:[CAM-INFO]
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151d7c0, Socket 36,index 9
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x281510dc0, Socket 38,index 10
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151dea0, Socket 39,index 11
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151d7c0, Socket is 36, Slot index is 9
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x281510dc0, Socket is 38, Slot index is 10
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151dea0, Socket is 39, Slot index is 11
+11-25 02:08:42(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x30bde00] uiLen[264]
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_Flush_SupportUnit:1046]18446744073709551615 [0x102b21030] Mode:B_SHORTRECORD[20] Support:1
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_Flush_SupportUnit:1052]SUPPORT-INF BUSS:B_SHORTRECORD PID:20 [SUPPORT]
+11-25 02:08:42(1850306560) PID_BASE INFO: [Cbbs_SupportOnChangeFun:236]Listen Support... 20 Support Haha
+11-25 02:08:42(1850306560) PID_BASE INFO: [Cbbs_NtyModuleRun:296]Cbbs direct run  taskid{20] uiMsg[1000]
+11-25 02:08:42(1850306560) cos INFO: [Cos_ThreadCreate:99]thread[Cbsv[SHORTVIDEO]]:0x80a40400 create OK
+11-25 02:08:42(1850306560) PID_CBSV INFO: [Cbsv_TaskMgrStart:609]Cbsv start!
+11-25 02:08:42(1850306560) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 7 Changed [0]
+11-25 02:08:42(1843539968) cos INFO: [Cos_ThreadProc:199]thread[Cbsv[SHORTVIDEO]]:0x80a40400 , threadid:1843539968 start ok
+11-25 02:08:42(1843539968) PID_CBSV INFO: [Cbsv_TaskMgrProc:548]Cbsv alive
+11-25 02:08:42(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:08:42(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:08:42(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[7]
+
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_support.db
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x28130ef70] [ENG] SUPPORT [PUSH] [0] Message[0]
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_QueryFinished:198]QUERY_INF CID:18446744073709551615 [Query:BUS-SUPPORT] Success String:{"code":1000,"data":{"business":{"B_TIMERECORD":{},"B_SHORTRECORD":{},"B_SENSOR":{"S_EMAIL":{"interval":"180"},"S_PUSH":{"interval":"180"}},"B_ALARMRECORD":{"S_EMAIL":{"interval":"180"},"S_PUSH":{"interval":"180"}}},"cid":"84010959"},"ts":"2019-11-25 03:08:53"}   
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151d7c0, Socket is 36, Slot is 9
+11-25 02:08:42(1850306560) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:08:42(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3150c00] uiLen[120]
+11-25 02:08:42(1850306560) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 3 Changed [0]
+11-25 02:08:42(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:08:42(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:08:42(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[3]
+
+11-25 02:08:42(1850945536) PID_BASE INFO: [Cbbs_GetService:336][18446744073709551615] CLOUD:Support1 Flag:1
+11-25 02:08:42(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServiceEmailAddr:2285]CFG_OP [18446744073709551615] Get SERVICE EMAIL Addr: 
+11-25 02:08:42(1850945536) PID_BASE INFO: [Cbbs_GetService:349][18446744073709551615] EMAIL:Support1 Flag:0 Mail:
+11-25 02:08:42(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServicePushToken:2141]CFG_OP [18446744073709551615] Get SERVICE PUSH Token: 
+11-25 02:08:42(1850945536) PID_BASE INFO: [Cbbs_GetService:362][18446744073709551615] PUSH:Support1 Flag:0 Token:
+11-25 02:08:42(1850945536) PID_BASE INFO: [Cbbs_GetService:373][18446744073709551615] MESSAGE:Support1 Flag:1 
+11-25 02:08:42(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:869]processConfigChangeMsg onEmailSettingUpdate EmailAlert[0] EmailAddr[]
+
+11-25 02:08:42(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:871]processConfigChangeMsg onPushSettingUpdate PushAlert[0]
+
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_service.db
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x28130f020] [ENG] SERVICE [PUSH] [0] Message[0]
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_QueryFinished:198]QUERY_INF CID:18446744073709551615 [Query:SERVICE-SUPPORT] Success String:{"code":1000,"data":{"cid":"84010959","service":["S_PUSH","S_CLOUD","S_EMAIL","S_MESSAGE"]},"ts":"2019-11-25 03:08:53"} 
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x281510dc0, Socket is 38, Slot is 10
+11-25 02:08:42(1850306560) cos INFO: [Cos_SocketClose:431]socket<38> closed
+11-25 02:08:42(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3136c00] uiLen[40]
+11-25 02:08:42(1850306560) PID_MECF INFO: [Mecf_QueryFinished:198]QUERY_INF CID:18446744073709551615 [Query:DEV-INFO] Success String:{"code":1004,"desc":"No data updated!"} 
+11-25 02:08:42(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151dea0, Socket is 39, Slot is 11
+11-25 02:08:42(1850306560) cos INFO: [Cos_SocketClose:431]socket<39> closed
+11-25 02:08:42(1850191872) PID_MECF INFO: [Mecf_SyncEngRmvFile:205]SYNC_FILE Rmv /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_status.db
+11-25 02:08:43(1850191872) PID_MECF INFO: [Mecf_SyncFileEngStatus:364]SYNC_FILE [18446744073709551615] Sync Finished No Status Content
+11-25 02:08:44(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_tsinf.db
+11-25 02:08:44(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x28130ef70] BroadCast [ENG] SUPPORT [PUSH]
+11-25 02:08:44(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130ef70] CMD TYPE:1  Content:7
+11-25 02:08:44(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x28130f020] BroadCast [ENG] SERVICE [PUSH]
+11-25 02:08:44(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130f020] CMD TYPE:1  Content:6
+11-25 02:08:44(47355904) PID_APP INFO: [-[Rvs_Streamer logWithLogLevel:LogFormat:]:239]AdMobAdsManager: cid is online five second
+11-25 02:08:44(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 1 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:44(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 128 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:44(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 256 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 02:08:44(47355904) PID_APP ERR: [-[Rvs_Streamer logWithLogLevel:LogFormat:]:247]AdMobAdsManager: ad is not ready
+11-25 02:08:48(1850191872) PID_MECF INFO: [Mecf_QueryRmvFinished:706]QUERY_INF Rmv 18446744073709551615  Query [0x28180ea00]
+11-25 02:08:50(1850421248) PID_TRAS INFO: [TrasBase_ProcLanSearch:66]lansearch peercid 85100824 local 84010959 ssid 
+11-25 02:08:50(1850421248) PID_TRAS INFO: [TrasPeerInfo_FindAndCreate:559]Create the Peer 85100824 
+
+11-25 02:08:50(1850421248) PID_MECF INFO: [Mecf_ParamGet_OsType:517]CFG_OP [18446744073709551615] Get OsType:2
+11-25 02:08:50(1850421248) cos INFO: [Cos_SocketOpen:394]socket<36> open ok
+11-25 02:08:50(1850421248) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:08:50(1850421248) PID_TRAS INFO: [TrasLanSearch_ProcRecv:68]Broadcast peercid 85100824 msgtype 1 ssid  
+11-25 02:08:50(1850421248) PID_TRAS INFO: [TrasTunnel_ProcessState:100]Peer Tunnel State Goto EN_TRAS_PEER_STATE_PREPARED PeerCid is 85100824
+11-25 02:08:58(1851060224) PID_CBMD_PLAYER INFO: [Cbmd_PlayerBus_Task:755]Cbmd_PlayerBus_Task alive uiNowTime[2711308538] uiStartTime[2711277770]
+11-25 02:09:20(1850421248) cos INFO: [Cos_SocketAccept:542]socket<36> accepted
+11-25 02:09:20(1850421248) PID_TRAS INFO: [TrasServer_ProcListenAccept:77]Received connect in Slot, Slot is 0x281806f00, SlotCount is 1
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_AddKeyId:1142]Add Key Id:85100824 Type:1
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_Load:566]Need Nty [85100824] My Version Changed [1 0]
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:SERVICE-SUPPORT]
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:BUS-SUPPORT]
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:ABILITY]
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:DEV-INFO]
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:SERVICE]
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_Load:647][85100824] Cfg Is Not Exist
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_MemAttentionAdd:415][85100824] Last Online Time:0 
+11-25 02:09:20(1850650624) PID_MECF INFO: [Mecf_SetAuthStatus:871][85100824] Auth Status Change From 0 To 1,Time[0-1574669360]
+11-25 02:09:20(1850421248) PID_TRAS INFO: [TrasTunnel_ProcessState:106]Peer Tunnel State Goto EN_TRAS_PEER_STATE_PROC PeerCid is 85100824
+11-25 02:09:20(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:300]Slot Tested, SlotType is 2, Slot is 0x281806f00. Slot socket is 36.
+11-25 02:09:20(1850421248) PID_TRAS INFO: [TrasTunnel_CreateSlot:517]Start Create slot, PeerCid is 85100824, SlotType is 1, Slot is 0x28180ea00.
+11-25 02:09:20(1850421248) PID_TRAS INFO: [TrasTunnel_ToConn:446]PeerCid is 85100824 to Create local slot. LocalIP is 192.168.1.97, Port is 6792, SlotCount is 2
+11-25 02:09:20(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:318]Slot Used, SlotType is 2, Slot is 0x281806f00. Slot socket is 36.
+11-25 02:09:20(1850421248) PID_TRAS INFO: [TrasTunnel_SetTunnelSlot:572]Peer Set the BestSlot, PeerCid is 85100824, Slot type is 2, Slot is 0x281806f00
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_SetOnlineStatus:901][85100824] [] 0 ON-LINE
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:ABILITY]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:BUS-SUPPORT]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:SERVICE-SUPPORT]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:DEV-INFO]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:SERVICE]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130ce70] [ENG] AUTH [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130ed60] [ENG] CAM-INFO [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130c000] [ENG] MIC-INFO [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130c160] [ENG] STORAGE [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130cd10] [ENG] WLAN [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130e520] [ENG] DEV-INFO [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130e730] [ENG] SERVICE [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130d760] [BUS] B_TIMERECORD [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130dad0] [BUS] B_ALARMRECORD [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130e5d0] [BUS] B_SENSOR [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130dc30] [BUS] B_SHORTRECORD [GET] [0] Message[0]
+11-25 02:09:20(1850535936) PID_MECF WARN: [Mecf_Cmd_HandShake:1129]MECF_CMD [85100824] HandShake
+11-25 02:09:20(1850535936) PID_MECF INFO: [Mecf_MemAttentionAdd:415][85100824] Last Online Time:1574669360 
+11-25 02:09:20(1850535936) PID_CBAU INFO: [Cbau_ReportPeerDevAutherStatus:120]report peer dev 85100824 SSID  auther status 3:peer dev can use Code 0
+11-25 02:09:20(1850535936) PID_TRAS INFO: [TrasTunnel_ProcessEvent:163]Callback PeerState CID:85100824, State: EN_TRAS_SUB_STATE_CANUSE
+11-25 02:09:20(1850191872) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:SERVICE-SUPPORT]
+11-25 02:09:20(1850191872) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:BUS-SUPPORT]
+11-25 02:09:20(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 5 From srcPid[15]
+
+11-25 02:09:20(1850945536) PID_SA INFO: [-[Rvs_Streamer processViewerPresenceStateUpdateMsg:]:1112]processStreamerPresenceStateUpdateMsg cid[85100824] presenceState[3]
+
+11-25 02:09:20(1846292480) PID_SA INFO: [-[Rvs_Streamer processViewerPresenceStateUpdateMsg:]_block_invoke:1161]processStreamerPresenceStateUpdateMsg cid[85100824] oldsessionstate[2]
+
+11-25 02:09:20(1850421248) cos INFO: [Cos_SocketOpen:394]socket<38> open ok
+11-25 02:09:20(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:229]Slot start to Connect, SlotType is 1, Slot is 0x28180ea00. Slot socket is 38.
+11-25 02:09:20(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_attention.db
+11-25 02:09:20(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x103150c00] [373] SEND:{"MD":1,"CID":"84010959","ID":"1","UT":"0","RT":"1","CT":{"cid":"84010959","service":"0","os_type":"2","sign":"9427","plat_version":"3.3.6","app_id":"19","info_serv":"http://3.213.145.94:80/info","user_serv":"","push_serv":"http://3.213.145.94:80/message","auth_serv":"3.213.145.94:80","comm_serv":"90.84.241.1:3678","cloud_serv":"http://13.52.54.27:80/ichanomanager/aws"}}
+11-25 02:09:20(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:243]Slot Connected, SlotType is 1, Slot is 0x28180ea00. Slot socket is 38.
+11-25 02:09:20(1850421248) PID_TRAS INFO: [TrasTunnel_SendTestBuffer:410]Tunnel CID:85100824 Slot is TESTING
+11-25 02:09:20(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:289]Slot Start to Testing, SlotType is 1, Slot is 0x28180ea00. Slot socket is 38.
+11-25 02:09:20(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:300]Slot Tested, SlotType is 1, Slot is 0x28180ea00. Slot socket is 38.
+11-25 02:09:21(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:318]Slot Used, SlotType is 1, Slot is 0x28180ea00. Slot socket is 38.
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_certificate.db
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130ce70] [65] SEND:{"MD":4,"CID":"84010959","ID":"2","UT":"0","PV":"3.3.6","HS":"0"}
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130ce70] CMD TYPE:1  Content:0
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130ed60] [65] SEND:{"MD":4,"CID":"84010959","ID":"3","UT":"1","PV":"3.3.6","HS":"0"}
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130ed60] CMD TYPE:1  Content:1
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130c000] [65] SEND:{"MD":4,"CID":"84010959","ID":"4","UT":"2","PV":"3.3.6","HS":"0"}
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130c000] CMD TYPE:1  Content:2
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130c160] [65] SEND:{"MD":4,"CID":"84010959","ID":"5","UT":"3","PV":"3.3.6","HS":"0"}
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130c160] CMD TYPE:1  Content:3
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130cd10] [65] SEND:{"MD":4,"CID":"84010959","ID":"6","UT":"4","PV":"3.3.6","HS":"0"}
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130cd10] CMD TYPE:1  Content:4
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130e520] [65] SEND:{"MD":4,"CID":"84010959","ID":"7","UT":"5","PV":"3.3.6","HS":"0"}
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130e520] CMD TYPE:1  Content:5
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130e730] [65] SEND:{"MD":4,"CID":"84010959","ID":"8","UT":"6","PV":"3.3.6","HS":"0"}
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130e730] CMD TYPE:1  Content:6
+11-25 02:09:21(1850191872) CBRD_CFG WARN: [Cbrd_Cfg_GetKeyIdInf:246]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:21(1850191872) CBRD_CFG ERR: [Cbrd_Cfg_UlFun:191][85100824] No Cfg
+11-25 02:09:21(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130d760] GET Pid:4 Get Buf Error
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130d760] CMD TYPE:0  Content:4
+11-25 02:09:21(1850191872) CBDT_MCFG WARN: [Cbdt_MCfg_GetKeyIdInf:260]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:21(1850191872) CBDT_MCFG ERR: [Cbdt_MCfg_UlFun:206][85100824] No Cfg
+11-25 02:09:21(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130dad0] GET Pid:33 Get Buf Error
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130dad0] CMD TYPE:0  Content:33
+11-25 02:09:21(1850191872) CBDT_SCFG WARN: [Cbdt_SCfg_GetKeyIdInf:243]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:21(1850191872) CBDT_SCFG ERR: [Cbdt_SCfg_UlFun:191][85100824] No Cfg
+11-25 02:09:21(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130e5d0] GET Pid:7 Get Buf Error
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130e5d0] CMD TYPE:0  Content:7
+11-25 02:09:21(1850191872) CBSV_CFG WARN: [Cbsv_Cfg_GetKeyIdInf:225]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:21(1850191872) CBSV_CFG ERR: [Cbsv_Cfg_UlFun:174][85100824] No Cfg
+11-25 02:09:21(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130dc30] GET Pid:20 Get Buf Error
+11-25 02:09:21(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130dc30] CMD TYPE:0  Content:20
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [68] RECV:{"MD":4,"CID":"85100824","ID":"6","UT":"0","PV":"3.3.6","HS":"9427"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_ParamSet_SDKVersion:307]CFG_OP [85100824] SDK Version Change From  To 3.3.6
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130dc30] [ENG] AUTH [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130e5d0] [ENG] CAM-INFO [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130dad0] [ENG] MIC-INFO [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130d760] [ENG] STORAGE [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130e730] [ENG] WLAN [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130e520] [ENG] DEV-INFO [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130cd10] [ENG] SERVICE [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130c160] [BUS] B_TIMERECORD [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130c000] [BUS] B_ALARMRECORD [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130ed60] [BUS] B_SENSOR [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130ce70] [BUS] B_SHORTRECORD [GET] [0] Message[0]
+11-25 02:09:22(1850650624) PID_MECF WARN: [Mecf_Cmd_HandShake:1129]MECF_CMD [85100824] HandShake
+11-25 02:09:22(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 0 Changed [0]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:719]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:9427 TYPE[AUTH] NOT NEED RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [65] RECV:{"MD":4,"CID":"85100824","ID":"7","UT":"1","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:722]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 TYPE[CAM-INFO] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130f020] [ENG] CAM-INFO [GET-RSP] [1] Message[7]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [65] RECV:{"MD":4,"CID":"85100824","ID":"8","UT":"2","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:722]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 TYPE[MIC-INFO] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130ef70] [ENG] MIC-INFO [GET-RSP] [1] Message[8]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [65] RECV:{"MD":4,"CID":"85100824","ID":"9","UT":"3","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:722]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 TYPE[STORAGE] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130f0d0] [ENG] STORAGE [GET-RSP] [1] Message[9]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [66] RECV:{"MD":4,"CID":"85100824","ID":"10","UT":"4","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:722]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 TYPE[WLAN] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130f180] [ENG] WLAN [GET-RSP] [1] Message[10]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [66] RECV:{"MD":4,"CID":"85100824","ID":"11","UT":"5","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:722]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 TYPE[DEV-INFO] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130f230] [ENG] DEV-INFO [GET-RSP] [1] Message[11]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [66] RECV:{"MD":4,"CID":"85100824","ID":"12","UT":"6","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:722]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 TYPE[SERVICE] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130f2e0] [ENG] SERVICE [GET-RSP] [1] Message[12]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [68] RECV:{"MD":4,"CID":"85100824","ID":"13","PID":"33","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:706]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 Module:B_ALARMRECORD Pid[33] MSG[13] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f390] [BUS] B_ALARMRECORD [GET-RSP] [1] Message[13]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [67] RECV:{"MD":4,"CID":"85100824","ID":"14","PID":"7","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:706]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 Module:B_SENSOR Pid[7] MSG[14] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f440] [BUS] B_SENSOR [GET-RSP] [1] Message[14]
+11-25 02:09:22(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:22(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[0]
+
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [67] RECV:{"MD":4,"CID":"85100824","ID":"15","PID":"4","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:706]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 Module:B_TIMERECORD Pid[4] MSG[15] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f4f0] [BUS] B_TIMERECORD [GET-RSP] [1] Message[15]
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [68] RECV:{"MD":4,"CID":"85100824","ID":"16","PID":"20","PV":"3.3.6","HS":"0"}
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:706]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:0 Module:B_SHORTRECORD Pid[20] MSG[16] NEWCONTENT RSP 
+11-25 02:09:22(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f5a0] [BUS] B_SHORTRECORD [GET-RSP] [1] Message[16]
+11-25 02:09:22(1850191872) PID_MECF INFO: [Mecf_QueryBusSupport:345]QUERY_INF [85100824] [OBJ:0x281812a00] Query With:/0 URL:/info/v3/config/support/1/business Need Info Server
+11-25 02:09:22(1850191872) PID_TRAS INFO: [Tras_SetGetInfServAddr:1084]reget cid 85100824 inf addr 
+11-25 02:09:22(1850421248) PID_MEAU INFO: [Meau_GetOneEventId:473]preget EventId 6
+11-25 02:09:22(1850421248) PID_MEAU INFO: [Meau_GetUsrNode:514]EventId 6 reqType 29,des:Dev get service addr from Auth center,begain send
+11-25 02:09:22(1850421248) PID_MECF INFO: [Mecf_ParamGet_ISPId:1911]CFG_OP [18446744073709551615] Get ISP ID: 
+11-25 02:09:22(1850421248) PID_MECF INFO: [Mecf_ParamGet_SDKType:568]CFG_OP [18446744073709551615] Get Service:0
+11-25 02:09:22(1850421248) PID_MEAU INFO: [Meau_AUC_QueryServiceRouteInf:2335]EventId 6 requst body {"company_id":"84xdgl07yz09","isp_id":"","app_id":"19","service":"1","cid":"85100824","system_list":[{"system_id":"1","failed_host":"http://3.213.145.94:80/info"}]}
+11-25 02:09:22(1850421248) cos INFO: [Cos_SocketOpen:394]socket<39> open ok
+11-25 02:09:22(1850421248) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151cdc0, Socket 39,index is 12 serv 3.213.145.94:80 Url h/route/query/service
+11-25 02:09:22(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151cdc0, Socket 39,index 12
+11-25 02:09:23(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151cdc0, Socket is 39, Slot index is 12
+11-25 02:09:23(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:254]EventId 6 ReqType 29 des Dev get service addr from Auth center,rsp len 152
+11-25 02:09:23(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3817000] uiLen[152]
+11-25 02:09:23(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:265]EventId 6 ReqType 29 rsp is {"code":1000,"data":{"cid":"85100824","route":{"auth_region":"2","request_region":"2","urls":[{"host":"http://159.138.140.162:80/info","system":"1"}]}}} 
+11-25 02:09:23(1850306560) PID_MECF INFO: [Mecf_ParamSet_Region:532]CFG_OP [85100824] AuthRegion Change From:0 To:2  AuthRegion Change From:0 To:2
+11-25 02:09:23(1850306560) PID_MECF INFO: [Mecf_NtySync:138]85100824 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:09:23(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x281309ef0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:09:23(1850306560) PID_MECF INFO: [Mecf_ParamSet_InfoAddr:676]CFG_OP [85100824] Set :http://159.138.140.162:80/info
+11-25 02:09:23(1850306560) PID_MECF INFO: [Mecf_NtySync:138]85100824 [3.3.6] Cfg Changed [AUTH] From UI
+11-25 02:09:23(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x281309ef0] [ENG] AUTH [PUSH] [0] Message[0]
+11-25 02:09:23(1850306560) PID_TRAS INFO: [Tras_ProcGetPeerInfAddrRsp:1412]get peer inf server errcode is 0 
+11-25 02:09:23(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151cdc0, Socket is 39, Slot is 12
+11-25 02:09:23(1850306560) cos INFO: [Cos_SocketClose:431]socket<39> closed
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [400] RECV:{"MD":5,"CID":"85100824","ID":"2","UT":"0","RT":"1","CT":{"cid":"85100824","service":"1","os_type":"2","sign":"9017","plat_version":"3.3.6","app_id":"12","info_serv":"http://13.52.54.27:80/info","user_serv":"http://13.52.54.27:80/user","push_serv":"http://13.52.54.27:80/message","auth_serv":"159.138.140.162:80","comm_serv":"90.84.241.1:3688","cloud_serv":"http://13.52.54.27:80/ichanomanager/aws"}}
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET-RSP 
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseGetRes:829]MECF_CMD RECV RECV 85100824 GET RSP Not NEED RSP
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_UI:30]Json GetIntegerEx dev_regist, iValue 0
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_UI:30]Json GetIntegerEx auth_type, iValue 0
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_UI:30]Json GetIntegerEx auth_change_flag, iValue 0
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_UI:30]Json GetIntegerEx auth_region, iValue 0
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_UI:30]Json GetIntegerEx request_region, iValue 0
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_UI:30]Json GetIntegerEx auth_time, iValue 0
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_UI:30]Json GetIntegerEx auth_status, iValue 0
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString cpass
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString symbol
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString user
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString user_pwd
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 0 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Parse_Certificate:167][85100824] [85100824] 1 OS:2 DevReg:0 AuType:0 AuCh:0 ReqReg:2 Status:1 AppId:12 Version:3.3.6 Info:http://13.52.54.27:80/info User:http://13.52.54.27:80/user Cloud:http://13.52.54.27:80/ichanomanager/aws Push:http://13.52.54.27:80/message Auth:159.138.140.162:80 Comm:90.84.241.1:3688
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [324] RECV:{"MD":5,"CID":"85100824","ID":"3","UT":"1","RT":"1","CT":{"camera_info":{"sign":"100","count":"1","infos":[{"index":"0","stream_count":"0","stream_type":"0","pic_type":"0","rotation_angle":"0","yuv_mode":"0","ptzmove_mode":"0","torch_mode":"0","rotate_mode":"0","definition":"0","enc_mod":"0","name":""}]},"cid":"85100824"}}
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET-RSP 
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseGetRes:829]MECF_CMD RECV RECV 85100824 GET RSP Not NEED RSP
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString name
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 1 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [114] RECV:{"MD":5,"CID":"85100824","ID":"4","UT":"2","RT":"1","CT":{"mic_info":{"sign":"100","count":"1"},"cid":"85100824"}}
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[0]
+
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET-RSP 
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseGetRes:829]MECF_CMD RECV RECV 85100824 GET RSP Not NEED RSP
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 1 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [119] RECV:{"MD":5,"CID":"85100824","ID":"5","UT":"3","RT":"1","CT":{"storage":{"sign":"100","record_mode":"2"},"cid":"85100824"}}
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET-RSP 
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[1]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[1]
+
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseGetRes:829]MECF_CMD RECV RECV 85100824 GET RSP Not NEED RSP
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 1 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [114] RECV:{"MD":5,"CID":"85100824","ID":"6","UT":"4","RT":"1","CT":{"wlan_info":{"sign":"100","type":"0"},"cid":"85100824"}}
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET-RSP 
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseGetRes:829]MECF_CMD RECV RECV 85100824 GET RSP Not NEED RSP
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 1 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [328] RECV:{"MD":5,"CID":"85100824","ID":"7","UT":"5","RT":"1","CT":{"operator":"85100824","cid":"85100824","sign":"99620","language":"2","app_version":"1.0.3","os_version":"iOS 13.2.3","name":"","deviceid":"","bind_mid":"770609","country_id":"US","area_id":"","region_id":"","city_id":"","county_id":"","isp_id":"4","ip":"72.191.49.113"}}
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET-RSP 
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseGetRes:829]MECF_CMD RECV RECV 85100824 GET RSP Not NEED RSP
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString deviceid
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString area_id
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString region_id
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString city_id
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString county_id
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString name
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 2 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [403] RECV:{"MD":5,"CID":"85100824","ID":"8","UT":"6","RT":"1","CT":{"cid":"85100824","service":{"sign":"99002","S_CLOUD":{"flag":"1"},"S_PUSH_GIF":{"flag":"1"},"S_FACE":{"flag":"1"},"S_CAPTURE":{"flag":"0"},"S_PUSH":{"flag":"1","mode":"0","token":"JIGUANG@@171976fa8ae47e396b0"},"S_EMAIL":{"flag":"0","email":"","sendemail":"","sendhost":"","sendpswd":"","sendport":"0"},"S_MESSAGE":{"flag":"1","rsvcount":"0"}}}}
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET-RSP 
+11-25 02:09:23(1850650624) PID_MECF INFO: [Mecf_CmdParseGetRes:829]MECF_CMD RECV RECV 85100824 GET RSP Not NEED RSP
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 3 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString email
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString sendemail
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString sendhost
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString sendpswd
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 3 Changed [0]
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 3 Changed [0]
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 3 Changed [0]
+11-25 02:09:23(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 3 Changed [0]
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_ServiceFace:417][85100824] Not Support FACE
+11-25 02:09:23(1850650624) PID_MECF WARN: [Mecf_Parse_ServiceGif:432][85100824] Not Support gif
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[1]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[1]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[2]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[3]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[3]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[3]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[3]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:23(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[3]
+
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_ability.db
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130dc30] [69] SEND:{"MD":4,"CID":"84010959","ID":"13","UT":"0","PV":"3.3.6","HS":"9017"}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130dc30] CMD TYPE:1  Content:0
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130e5d0] [68] SEND:{"MD":4,"CID":"84010959","ID":"14","UT":"1","PV":"3.3.6","HS":"100"}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130e5d0] CMD TYPE:1  Content:1
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130dad0] [68] SEND:{"MD":4,"CID":"84010959","ID":"15","UT":"2","PV":"3.3.6","HS":"100"}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130dad0] CMD TYPE:1  Content:2
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130d760] [68] SEND:{"MD":4,"CID":"84010959","ID":"16","UT":"3","PV":"3.3.6","HS":"100"}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130d760] CMD TYPE:1  Content:3
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130e730] [68] SEND:{"MD":4,"CID":"84010959","ID":"17","UT":"4","PV":"3.3.6","HS":"100"}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130e730] CMD TYPE:1  Content:4
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130e520] [70] SEND:{"MD":4,"CID":"84010959","ID":"18","UT":"5","PV":"3.3.6","HS":"99620"}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130e520] CMD TYPE:1  Content:5
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130cd10] [70] SEND:{"MD":4,"CID":"84010959","ID":"19","UT":"6","PV":"3.3.6","HS":"99002"}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130cd10] CMD TYPE:1  Content:6
+11-25 02:09:23(1850191872) CBRD_CFG WARN: [Cbrd_Cfg_GetKeyIdInf:246]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:23(1850191872) CBRD_CFG ERR: [Cbrd_Cfg_UlFun:191][85100824] No Cfg
+11-25 02:09:23(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130c160] GET Pid:4 Get Buf Error
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130c160] CMD TYPE:0  Content:4
+11-25 02:09:23(1850191872) CBDT_MCFG WARN: [Cbdt_MCfg_GetKeyIdInf:260]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:23(1850191872) CBDT_MCFG ERR: [Cbdt_MCfg_UlFun:206][85100824] No Cfg
+11-25 02:09:23(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130c000] GET Pid:33 Get Buf Error
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130c000] CMD TYPE:0  Content:33
+11-25 02:09:23(1850191872) CBDT_SCFG WARN: [Cbdt_SCfg_GetKeyIdInf:243]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:23(1850191872) CBDT_SCFG ERR: [Cbdt_SCfg_UlFun:191][85100824] No Cfg
+11-25 02:09:23(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130ed60] GET Pid:7 Get Buf Error
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130ed60] CMD TYPE:0  Content:7
+11-25 02:09:23(1850191872) CBSV_CFG WARN: [Cbsv_Cfg_GetKeyIdInf:225]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:23(1850191872) CBSV_CFG ERR: [Cbsv_Cfg_UlFun:174][85100824] No Cfg
+11-25 02:09:23(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130ce70] GET Pid:20 Get Buf Error
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130ce70] CMD TYPE:0  Content:20
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f020] [324] SEND:{"MD":5,"CID":"84010959","ID":"7","UT":"1","RT":"1","CT":{"camera_info":{"sign":"106","count":"1","infos":[{"index":"0","stream_count":"1","stream_type":"0","pic_type":"0","rotation_angle":"0","yuv_mode":"0","ptzmove_mode":"7","torch_mode":"1","rotate_mode":"1","definition":"5","enc_mod":"0","name":""}]},"cid":"84010959"}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f020] CMD TYPE:1  Content:1
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130ef70] [114] SEND:{"MD":5,"CID":"84010959","ID":"8","UT":"2","RT":"1","CT":{"mic_info":{"sign":"100","count":"1"},"cid":"84010959"}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130ef70] CMD TYPE:1  Content:2
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f0d0] [119] SEND:{"MD":5,"CID":"84010959","ID":"9","UT":"3","RT":"1","CT":{"storage":{"sign":"100","record_mode":"2"},"cid":"84010959"}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f0d0] CMD TYPE:1  Content:3
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f180] [115] SEND:{"MD":5,"CID":"84010959","ID":"10","UT":"4","RT":"1","CT":{"wlan_info":{"sign":"100","type":"0"},"cid":"84010959"}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f180] CMD TYPE:1  Content:4
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f230] [319] SEND:{"MD":5,"CID":"84010959","ID":"11","UT":"5","RT":"1","CT":{"operator":"84010959","cid":"84010959","sign":"69788","language":"2","app_version":"4.0.7","os_version":"","name":"iOS0959","deviceid":"","bind_mid":"","country_id":"US","area_id":"","region_id":"","city_id":"","county_id":"","isp_id":"","ip":"72.191.49.113"}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f230] CMD TYPE:1  Content:5
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f2e0] [374] SEND:{"MD":5,"CID":"84010959","ID":"12","UT":"6","RT":"1","CT":{"cid":"84010959","service":{"sign":"101","S_CLOUD":{"flag":"1"},"S_PUSH_GIF":{"flag":"1"},"S_FACE":{"flag":"1"},"S_CAPTURE":{"flag":"0"},"S_PUSH":{"flag":"0","mode":"0","token":""},"S_EMAIL":{"flag":"0","email":"","sendemail":"","sendhost":"","sendpswd":"","sendport":"0"},"S_MESSAGE":{"flag":"1","rsvcount":"0"}}}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f2e0] CMD TYPE:1  Content:6
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f390] [319] SEND:{"MD":5,"CID":"84010959","ID":"13","PID":"33","RT":"1","CT":{"B_ALARMRECORD":{"sign":"100","auto_del":"1","del_days":"0","max_time":"30","alarmrecord_flag":"1","cloud_flag":"1","msg_send":"0","msg_cond":"0","msg_interval":"180","infos":[{"index":"0","count":"0","human_detect":"0","face_detect":"0","schedules":[]}] }}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f390] CMD TYPE:0  Content:33
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f440] [154] SEND:{"MD":5,"CID":"84010959","ID":"14","PID":"7","RT":"1","CT":{"B_SENSOR":{"sign":"100","sensors_setflag":"0","noticecb_flag":"0","count":"0","sensors":[]}}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f440] CMD TYPE:0  Content:7
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f4f0] [189] SEND:{"MD":5,"CID":"84010959","ID":"15","PID":"4","RT":"1","CT":{"B_TIMERECORD":{"sign":"100","auto_del":"1","del_days":"0","max_time":"600","infos":[{"index":"0","count":"0","schedules":[]}]}}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f4f0] CMD TYPE:0  Content:4
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f5a0] [144] SEND:{"MD":5,"CID":"84010959","ID":"16","PID":"20","RT":"1","CT":{"B_SHORTRECORD":{"sign":"100","cloud_flag":"0","record_mode":"0","duration":"30"}}}
+11-25 02:09:23(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f5a0] CMD TYPE:0  Content:20
+11-25 02:09:23(1850650624) cos INFO: [Cos_ThreadCreate:99]thread[SendSingleMediaThread]:0x80a40280 create OK
+11-25 02:09:23(1850650624) PID_CBMD_FILE INFO: [Cbmd_File_RecvReq:593]task[0x103089400] [85100824] live jpg cam[0] stream[0]
+11-25 02:09:23(1843654656) cos INFO: [Cos_ThreadProc:199]thread[SendSingleMediaThread]:0x80a40280 , threadid:1843654656 start ok
+11-25 02:09:23(1843654656) PID_CBMD_FILE INFO: [Cbmd_File_Thread:472]create Cbmd_File_Thread
+11-25 02:09:23(1843654656) PID_SA INFO: [-[Rvs_Streamer_Media onAutoPutJpegDataWithCamera:stream:PicFlag:JpegBuf:Len:]:1383]SA Streamer recv get jpeg notify camindex[0] streamindex[0] picFlag[0] jpegbuf[0x7410000] len[16916]
+11-25 02:09:24(1843654656) PID_CBMD_FILE INFO: [Cbmd_ProcFileSend:339]task[0x103089400], llidPeerCid[85100824] send ok
+11-25 02:09:24(1843654656) PID_CBMD_FILE INFO: [Cbmd_File_Thread:500]task 0x103089400 free 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [70] RECV:{"MD":4,"CID":"85100824","ID":"17","PID":"33","PV":"3.3.6","HS":"100"}
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:703]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:100 Module:B_ALARMRECORD Pid[33] MSG[17] NOT NEED RSP 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [69] RECV:{"MD":4,"CID":"85100824","ID":"18","PID":"7","PV":"3.3.6","HS":"100"}
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:703]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:100 Module:B_SENSOR Pid[7] MSG[18] NOT NEED RSP 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [69] RECV:{"MD":4,"CID":"85100824","ID":"19","PID":"4","PV":"3.3.6","HS":"100"}
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:703]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:100 Module:B_TIMERECORD Pid[4] MSG[19] NOT NEED RSP 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [70] RECV:{"MD":4,"CID":"85100824","ID":"20","PID":"20","PV":"3.3.6","HS":"100"}
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need GET 
+11-25 02:09:24(1850650624) PID_MECF INFO: [Mecf_CmdParseGet:703]MECF_CMD RECV RECV 85100824 GET,Check Sign,Sign:100 Module:B_SHORTRECORD Pid[20] MSG[20] NOT NEED RSP 
+11-25 02:09:24(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_certificate.db
+11-25 02:09:24(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_devinf.db
+11-25 02:09:24(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_service.db
+11-25 02:09:24(1850191872) PID_MECF ERR: [Mecf_CmdEngGetParam:1313]MECF_CMD [85100824] [0x281309ef0] Illegal Sync Type:0 
+11-25 02:09:24(1850191872) PID_MECF WARN: [Mecf_CmdProc:1783]MECF_CMD SEND [85100824] [0x281309ef0] [ENG] [PUSH] Param Err Need Stop
+11-25 02:09:24(1850191872) PID_BASE INFO: [Cbbs_NtyCfgErr:160]85100824 0 Changed [0]
+11-25 02:09:24(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1704]MECF_CMD 85100824 [0x281309ef0] Message[0] CMD TYPE:1  Content:0 Failed Start:1574669364 Now:1574669364
+11-25 02:09:24(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 2 From srcPid[0]
+
+11-25 02:09:24(1850945536) PID_SA INFO: [-[Rvs_Streamer processBaseMsg:]:766]SA Recv Not Handle Msg 2 From Base Module
+
+11-25 02:09:25(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_tsinf.db
+11-25 02:09:25(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1674]MECF_CMD Rmv 85100824 [0x281309ef0] Message[0] CMD TYPE:1  Content:0
+11-25 02:09:27(47355904) PID_SA INFO: [-[Rvs_Streamer printMemoryUsedStatus]:553]App has used Memory 67.81M , OS left 58.44M, BatteryLevel 76%, BatteryState Unplugged
+11-25 02:09:28(1850191872) PID_MECF INFO: [Mecf_QueryBusSupport:349]QUERY_INF [85100824] [http://13.52.54.27:80/info] [/info/v3/config/support/1/business] [48] Query {"operator":"84010959","cid":"85100824","ts":""}
+11-25 02:09:28(1850191872) cos INFO: [Cos_SocketOpen:394]socket<39> open ok
+11-25 02:09:28(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x281511fe0, Socket 39,index is 13 serv 13.52.54.27:80 Url o/v3/config/support/1/business
+11-25 02:09:28(1850191872) PID_MECF INFO: [Mecf_QueryType:588]QUERY_INF 85100824 Is Online Not Need Query Info [Query:SERVICE-SUPPORT]
+11-25 02:09:28(1850191872) PID_MECF INFO: [Mecf_QueryType:588]QUERY_INF 85100824 Is Online Not Need Query Info [Query:ABILITY]
+11-25 02:09:28(1850191872) PID_MECF INFO: [Mecf_QueryType:588]QUERY_INF 85100824 Is Online Not Need Query Info [Query:DEV-INFO]
+11-25 02:09:29(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x281511fe0, Socket 39,index 13
+11-25 02:09:29(1850191872) PID_MECF INFO: [Mecf_QueryType:588]QUERY_INF 85100824 Is Online Not Need Query Info [Query:SERVICE]
+11-25 02:09:29(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x281511fe0, Socket is 39, Slot index is 13
+11-25 02:09:29(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x30bde00] uiLen[80]
+11-25 02:09:29(1850306560) PID_BASE INFO: [Cbbs_NtySendMsg:112]85100824 7 Changed [0]
+11-25 02:09:29(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:09:29(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[85100824] changetype[7]
+
+11-25 02:09:29(1850306560) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_support.db
+11-25 02:09:29(1850306560) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130c840] [BUS] B_TIMERECORD [GET] [0] Message[0]
+11-25 02:09:29(1850306560) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f5a0] [BUS] B_ALARMRECORD [GET] [0] Message[0]
+11-25 02:09:29(1850306560) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f4f0] [BUS] B_SENSOR [GET] [0] Message[0]
+11-25 02:09:29(1850306560) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f440] [BUS] B_SHORTRECORD [GET] [0] Message[0]
+11-25 02:09:29(1850306560) PID_MECF INFO: [Mecf_QueryFinished:198]QUERY_INF CID:85100824 [Query:BUS-SUPPORT] Success String:{"code":1000,"data":{"business":{},"cid":"85100824"},"ts":"2019-11-24 07:35:24"}
+11-25 02:09:29(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x281511fe0, Socket is 39, Slot is 13
+11-25 02:09:29(1850306560) cos INFO: [Cos_SocketClose:431]socket<39> closed
+11-25 02:09:30(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_tsinf.db
+11-25 02:09:30(1850191872) CBRD_CFG WARN: [Cbrd_Cfg_GetKeyIdInf:246]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:30(1850191872) CBRD_CFG ERR: [Cbrd_Cfg_UlFun:191][85100824] No Cfg
+11-25 02:09:30(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130c840] GET Pid:4 Get Buf Error
+11-25 02:09:30(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130c840] CMD TYPE:0  Content:4
+11-25 02:09:30(1850191872) CBDT_MCFG WARN: [Cbdt_MCfg_GetKeyIdInf:260]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:30(1850191872) CBDT_MCFG ERR: [Cbdt_MCfg_UlFun:206][85100824] No Cfg
+11-25 02:09:30(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130f5a0] GET Pid:33 Get Buf Error
+11-25 02:09:30(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f5a0] CMD TYPE:0  Content:33
+11-25 02:09:30(1850191872) CBDT_SCFG WARN: [Cbdt_SCfg_GetKeyIdInf:243]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:30(1850191872) CBDT_SCFG ERR: [Cbdt_SCfg_UlFun:191][85100824] No Cfg
+11-25 02:09:30(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130f4f0] GET Pid:7 Get Buf Error
+11-25 02:09:30(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f4f0] CMD TYPE:0  Content:7
+11-25 02:09:30(1850191872) CBSV_CFG WARN: [Cbsv_Cfg_GetKeyIdInf:225]Streamer Have No Peer[85100824] Bus Cfg
+11-25 02:09:30(1850191872) CBSV_CFG ERR: [Cbsv_Cfg_UlFun:174][85100824] No Cfg
+11-25 02:09:30(1850191872) PID_MECF WARN: [Mecf_CmdGetBus:1462]MECF_CMD SEND [85100824] [0x28130f440] GET Pid:20 Get Buf Error
+11-25 02:09:30(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f440] CMD TYPE:0  Content:20
+11-25 02:09:33(1850650624) PID_CBCD_STREAMER INFO: [Cbcd_OnRecvCmd:53]recv cmd from 85100824: {"c":{"s":1,"l":1,"mid":"770609"},"t":43,"i":"260000003"}
+11-25 02:09:33(1850650624) PID_CBCD_STREAMER INFO: [Cbcd_DispatchMsg:23]recv cmd from 85100824, len=58
+11-25 02:09:33(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:75]to proc metf msg: 3
+11-25 02:09:33(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:104]to call handler for msg from 85100824
+11-25 02:09:33(1850077184) PID_MECF INFO: [Mecf_CheckBind:415]Check 1st Bind:85100824 [770609]
+11-25 02:09:33(1850077184) PID_MECF INFO: [Mecf_CheckBind:427]Bind:0 Count:1
+11-25 02:09:33(1850077184) PID_MEAU INFO: [Meau_GetOneEventId:473]preget EventId 7
+11-25 02:09:33(1850077184) PID_MEAU INFO: [Meau_GetUsrNode:514]EventId 7 reqType 52,des:Bind avs from inf center,begain send
+11-25 02:09:33(1850077184) PID_MEAU INFO: [Meau_INF_BindCid:3339]EventId 7 requst body {"cid":"84010959","bind_mid":"770609"}
+11-25 02:09:33(1850077184) cos INFO: [Cos_SocketOpen:394]socket<39> open ok
+11-25 02:09:33(1850077184) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151d7c0, Socket 39,index is 14 serv 3.213.145.94:80 Url o/v3/device/0/bind
+11-25 02:09:33(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:116]msg from 85100824 processed(OK)
+11-25 02:09:33(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcSelfMsg:197]self msg processed: 3
+11-25 02:09:33(1850077184) PID_CBCD_STREAMER INFO: [Cos_PidMgrProcMsg:100]msg-proc:0x831eb780-3 has proced  from PID_CBCD_STREAMER
+11-25 02:09:33(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151d7c0, Socket 39,index 14
+11-25 02:09:34(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151d7c0, Socket is 39, Slot index is 14
+11-25 02:09:34(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:254]EventId 7 ReqType 52 des Bind avs from inf center,rsp len 40
+11-25 02:09:34(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3152400] uiLen[40]
+11-25 02:09:34(1850306560) PID_MEAU INFO: [Meau_UsrFinishRecvHttpRsp:265]EventId 7 ReqType 52 rsp is {"code":1000,"ts":"2019-11-25 03:09:51"} 
+11-25 02:09:34(1850306560) PID_MECF INFO: [Mecf_ParamSet_BindMid:1604]CFG_OP [18446744073709551615] Bind Mid Change From  To 770609
+11-25 02:09:34(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x28130c9a0] [ENG] DEV-INFO [PUSH] [0] Message[0]
+11-25 02:09:34(1850306560) PID_CBCD_STREAMER INFO: [Cbcd_ProcBindRsp:658]Bind by cid  85100824
+11-25 02:09:34(1850306560) PID_CBCD_STREAMER INFO: [Cbcd_Rsp_SendToPeer:9]rsp cmd to 85100824: {"t":44,"i":"260000003","s":0,"f":1}
+11-25 02:09:34(1850306560) PID_CBCD_STREAMER INFO: [Cbcd_Rsp_BindSet:435]rsp cmd to 85100824(ok)
+11-25 02:09:34(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151d7c0, Socket is 39, Slot is 14
+11-25 02:09:34(1850306560) cos INFO: [Cos_SocketClose:431]socket<39> closed
+11-25 02:09:35(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_devinf.db
+11-25 02:09:35(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x28130c9a0] BroadCast [ENG] DEV-INFO [PUSH]
+11-25 02:09:35(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130c9a0] [325] SEND:{"MD":1,"CID":"84010959","ID":"28","UT":"5","RT":"1","CT":{"operator":"84010959","cid":"84010959","sign":"69789","language":"2","app_version":"4.0.7","os_version":"","name":"iOS0959","deviceid":"","bind_mid":"770609","country_id":"US","area_id":"","region_id":"","city_id":"","county_id":"","isp_id":"","ip":"72.191.49.113"}}
+11-25 02:09:35(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130c9a0] CMD TYPE:1  Content:5
+11-25 02:09:36(1850191872) PID_MECF INFO: [Mecf_QueryRmvFinished:706]QUERY_INF Rmv 85100824  Query [0x281812a00]
+11-25 02:09:36(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_tsinf.db
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [361] RECV:{"MD":1,"CID":"84010959","ID":"21","UT":"6","RT":"1","CT":{"cid":"84010959","service":{"S_CLOUD":{"flag":"1"},"S_PUSH_GIF":{"flag":"1"},"S_FACE":{"flag":"1"},"S_CAPTURE":{"flag":"0"},"S_PUSH":{"flag":"1","mode":"1","token":""},"S_EMAIL":{"flag":"0","email":"","sendemail":"","sendhost":"","sendpswd":"","sendport":"0"},"S_MESSAGE":{"flag":"1","rsvcount":"0"}}}}
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need PUSH 
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParsePush:385]MECF_CMD RECV RECV 84010959 PUSH Need RSP 
+11-25 02:10:00(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString token
+11-25 02:10:00(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 3 Changed [0]
+11-25 02:10:00(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString email
+11-25 02:10:00(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString sendemail
+11-25 02:10:00(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString sendhost
+11-25 02:10:00(1850650624) PID_MECF WARN: [Mecf_Parse_String:101]Json GetString sendpswd
+11-25 02:10:00(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 3 Changed [0]
+11-25 02:10:00(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 3 Changed [0]
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[3]
+
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:336][18446744073709551615] CLOUD:Support1 Flag:1
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServiceEmailAddr:2285]CFG_OP [18446744073709551615] Get SERVICE EMAIL Addr: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:349][18446744073709551615] EMAIL:Support1 Flag:0 Mail:
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServicePushToken:2141]CFG_OP [18446744073709551615] Get SERVICE PUSH Token: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:362][18446744073709551615] PUSH:Support1 Flag:1 Token:
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:373][18446744073709551615] MESSAGE:Support1 Flag:1 
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:869]processConfigChangeMsg onEmailSettingUpdate EmailAlert[0] EmailAddr[]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:871]processConfigChangeMsg onPushSettingUpdate PushAlert[1]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[3]
+
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:336][18446744073709551615] CLOUD:Support1 Flag:1
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServiceEmailAddr:2285]CFG_OP [18446744073709551615] Get SERVICE EMAIL Addr: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:349][18446744073709551615] EMAIL:Support1 Flag:0 Mail:
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServicePushToken:2141]CFG_OP [18446744073709551615] Get SERVICE PUSH Token: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:362][18446744073709551615] PUSH:Support1 Flag:1 Token:
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:373][18446744073709551615] MESSAGE:Support1 Flag:1 
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:869]processConfigChangeMsg onEmailSettingUpdate EmailAlert[0] EmailAddr[]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:871]processConfigChangeMsg onPushSettingUpdate PushAlert[1]
+
+11-25 02:10:00(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 3 Changed [0]
+11-25 02:10:00(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 3 Changed [0]
+11-25 02:10:00(1850650624) PID_MECF WARN: [Mecf_Parse_ServiceFace:417][18446744073709551615] Not Support FACE
+11-25 02:10:00(1850650624) PID_MECF WARN: [Mecf_Parse_ServiceGif:432][18446744073709551615] Not Support gif
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [85100824] Add [0x28130c9a0] [ENG] SERVICE [PUSH-RSP] [0] Message[21]
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParsePush:495]MECF_CMD RECV OWNER CFG [SERVICE] CHANGED NEED SYNC TO SERVER && BROADCAST 
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_NtySync:138]18446744073709551615 [3.3.6] Cfg Changed [SERVICE] From UI
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x28130cb00] [ENG] SERVICE [PUSH] [0] Message[0]
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_SyncAdd:104]SYNC_ENG [18446744073709551615] [OBJ:0x280731860] Need To SYNC:[SERVICE] Content:1fff
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [141] RECV:{"MD":1,"CID":"84010959","ID":"22","PID":"7","RT":"1","CT":{"B_SENSOR":{"sensors_setflag":"1","noticecb_flag":"0","count":"0","sensors":[]}}}
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need PUSH 
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParsePush:385]MECF_CMD RECV RECV 84010959 PUSH Need RSP 
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[3]
+
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:336][18446744073709551615] CLOUD:Support1 Flag:1
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServiceEmailAddr:2285]CFG_OP [18446744073709551615] Get SERVICE EMAIL Addr: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:349][18446744073709551615] EMAIL:Support1 Flag:0 Mail:
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServicePushToken:2141]CFG_OP [18446744073709551615] Get SERVICE PUSH Token: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:362][18446744073709551615] PUSH:Support1 Flag:1 Token:
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:373][18446744073709551615] MESSAGE:Support1 Flag:1 
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:869]processConfigChangeMsg onEmailSettingUpdate EmailAlert[0] EmailAddr[]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:871]processConfigChangeMsg onPushSettingUpdate PushAlert[1]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[3]
+
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:336][18446744073709551615] CLOUD:Support1 Flag:1
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServiceEmailAddr:2285]CFG_OP [18446744073709551615] Get SERVICE EMAIL Addr: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:349][18446744073709551615] EMAIL:Support1 Flag:0 Mail:
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServicePushToken:2141]CFG_OP [18446744073709551615] Get SERVICE PUSH Token: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:362][18446744073709551615] PUSH:Support1 Flag:1 Token:
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:373][18446744073709551615] MESSAGE:Support1 Flag:1 
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:869]processConfigChangeMsg onEmailSettingUpdate EmailAlert[0] EmailAddr[]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:871]processConfigChangeMsg onPushSettingUpdate PushAlert[1]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[3]
+
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:336][18446744073709551615] CLOUD:Support1 Flag:1
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServiceEmailAddr:2285]CFG_OP [18446744073709551615] Get SERVICE EMAIL Addr: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:349][18446744073709551615] EMAIL:Support1 Flag:0 Mail:
+11-25 02:10:00(1850945536) PID_MECF INFO: [Mecf_ParamGet_ServicePushToken:2141]CFG_OP [18446744073709551615] Get SERVICE PUSH Token: 
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:362][18446744073709551615] PUSH:Support1 Flag:1 Token:
+11-25 02:10:00(1850945536) PID_BASE INFO: [Cbbs_GetService:373][18446744073709551615] MESSAGE:Support1 Flag:1 
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:869]processConfigChangeMsg onEmailSettingUpdate EmailAlert[0] EmailAddr[]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:871]processConfigChangeMsg onPushSettingUpdate PushAlert[1]
+
+11-25 02:10:00(1850650624) PID_CBDT INFO: [Cbdt_Check_SensorTime:904]Sensor Time Changed
+11-25 02:10:00(1850650624) CBDT_SCFG INFO: [Cbdt_SCfg_Save:366][18446744073709551615] Save File
+11-25 02:10:00(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 6 Changed [7]
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[6]
+
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x281309130] [BUS] B_SENSOR [PUSH-RSP] [0] Message[22]
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParsePush:451]MECF_CMD RECV OWNER CFG [B_SENSOR] CHANGED NEED SYNC TO SERVER && BROADCAST 
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [18446744073709551615] Add [0x28130f440] [BUS] B_SENSOR [PUSH] [0] Message[0]
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_SyncBusAdd:95]SYNC_BUS 18446744073709551615 [OBJ:0x28002d8c0] Need To SYNC Pid:7 
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_Cmd_Recv:1169]MECF_CMD RECV [85100824] [477] RECV:{"MD":1,"CID":"84010959","ID":"23","PID":"33","RT":"1","CT":{"B_ALARMRECORD":{"auto_del":"1","del_days":"0","max_time":"30","alarmrecord_flag":"1","cloud_flag":"1","msg_send":"0","msg_cond":"0","msg_interval":"180","infos":[{"index":"0","count":"2","human_detect":"0","face_detect":"0","schedules":[{"enable":"1","weekday_flag":"127","start_time":"0","stop_time":"86399","interval":"1"},{"enable":"1","weekday_flag":"127","start_time":"0","stop_time":"0","interval":"1"}]}] }}}
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParseRecv:966]MECF_CMD RECV RECV :85100824 Need PUSH 
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParsePush:385]MECF_CMD RECV RECV 84010959 PUSH Need RSP 
+11-25 02:10:00(1850650624) PID_CBDT INFO: [Cbdt_Check_MotionTime:867]Motion Time Changed
+11-25 02:10:00(1850650624) CBDT_MCFG INFO: [Cbdt_MCfg_GetSchedules:496][18446744073709551615] Cam0 Get Schedules:2
+11-25 02:10:00(1850650624) CBDT_MCFG INFO: [Cbdt_MCfg_GetSchedules:505]Enable[1] WeekFlag:[127] TimeZone[0-86399],Interval:1
+11-25 02:10:00(1850650624) CBDT_MCFG INFO: [Cbdt_MCfg_GetSchedules:505]Enable[1] WeekFlag:[127] TimeZone[0-0],Interval:1
+11-25 02:10:00(1850650624) PID_CBDT INFO: [Cbdt_NtySensorDetectSchedules:647]uiAlarmType:1 uiAlarmId:0,uiSeq:0,uiStartTime:0,uiStopTime:86399,uiThreshold:1,uiEnable:1,uiWeekFlag:127
+11-25 02:10:00(1850650624) PID_CBDT INFO: [Cbdt_NtySensorDetectSchedules:647]uiAlarmType:1 uiAlarmId:0,uiSeq:1,uiStartTime:0,uiStopTime:0,uiThreshold:1,uiEnable:1,uiWeekFlag:127
+11-25 02:10:00(1850650624) CBDT_MCFG INFO: [Cbdt_MCfg_GetCloudFlag:201][18446744073709551615] Get CloudFlag:1
+11-25 02:10:00(1850650624) CBDT_MCFG INFO: [Cbdt_MCfg_Save:386][18446744073709551615] Save File
+11-25 02:10:00(1850650624) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 6 Changed [33]
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [85100824] Add [0x28130f4f0] [BUS] B_ALARMRECORD [PUSH-RSP] [0] Message[23]
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdParsePush:451]MECF_CMD RECV OWNER CFG [B_ALARMRECORD] CHANGED NEED SYNC TO SERVER && BROADCAST 
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_CmdAdd:126]MECF_CMD [18446744073709551615] Add [0x28130f5a0] [BUS] B_ALARMRECORD [PUSH] [0] Message[0]
+11-25 02:10:00(1850650624) PID_MECF INFO: [Mecf_SyncBusAdd:95]SYNC_BUS 18446744073709551615 [OBJ:0x28002dd40] Need To SYNC Pid:33 
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[7]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getUIWithTag:]:153]Msg type[1] getUIWithTag [10] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processAlarmNoticeMsg:]:1670]processAlarmNoticeMsg alarmType[1] alarmId[0] alarmCode[-1]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[7]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getUIWithTag:]:153]Msg type[1] getUIWithTag [10] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processAlarmNoticeMsg:]:1670]processAlarmNoticeMsg alarmType[1] alarmId[0] alarmCode[-1]
+
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 02:10:00(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 02:10:00(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[6]
+
+11-25 02:10:01(1850191872) PID_MECF INFO: [Mecf_SyncEngToServer:501]SYNC_ENG [18446744073709551615] [OBJ:0x280731860] Update With:3.213.145.94/80 URL:/info/v3/config/service/0/update [316] Content:{"cid":"84010959","service":{"sign":"9501","S_CLOUD":{"flag":"1"},"S_PUSH_GIF":{"flag":"1"},"S_FACE":{"flag":"1"},"S_CAPTURE":{"flag":"0"},"S_PUSH":{"flag":"1","mode":"1","token":""},"S_EMAIL":{"flag":"0","email":"","sendemail":"","sendhost":"","sendpswd":"","sendport":"0"},"S_MESSAGE":{"flag":"1","rsvcount":"0"}}}
+11-25 02:10:01(1850191872) cos INFO: [Cos_SocketOpen:394]socket<39> open ok
+11-25 02:10:01(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x281510dc0, Socket 39,index is 15 serv 3.213.145.94:80 Url o/v3/config/service/0/update
+11-25 02:10:01(1850191872) PID_MECF INFO: [Mecf_SyncBusServer:324]SYNC_BUS 18446744073709551615 [OBJ:0x28002d8c0] Need Sync Bus
+11-25 02:10:01(1850191872) PID_MECF INFO: [Mecf_SyncBusToServer:288]SYNC_BUS CID:18446744073709551615 [OBJ:0x28002d8c0] [PID:7] [147] sync {"operator":"84010959","cid":"84010959","business":{"B_SENSOR":{"sign":"9500","sensors_setflag":"1","noticecb_flag":"0","count":"0","sensors":[]}}} To Server
+11-25 02:10:01(1850191872) cos INFO: [Cos_SocketOpen:394]socket<40> open ok
+11-25 02:10:01(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151dea0, Socket 40,index is 16 serv 3.213.145.94:80 Url o/v3/config/business/0/update
+11-25 02:10:01(1850191872) PID_MECF INFO: [Mecf_SyncBusServer:324]SYNC_BUS 18446744073709551615 [OBJ:0x28002dd40] Need Sync Bus
+11-25 02:10:01(1850191872) PID_MECF INFO: [Mecf_SyncBusToServer:288]SYNC_BUS CID:18446744073709551615 [OBJ:0x28002dd40] [PID:33] [482] sync {"operator":"84010959","cid":"84010959","business":{"B_ALARMRECORD":{"sign":"9500","auto_del":"1","del_days":"0","max_time":"30","alarmrecord_flag":"1","cloud_flag":"1","msg_send":"0","msg_cond":"0","msg_interval":"180","infos":[{"index":"0","count":"2","human_detect":"0","face_detect":"0","schedules":[{"enable":"1","weekday_flag":"127","start_time":"0","stop_time":"86399","interval":"1"},{"enable":"1","weekday_flag":"127","start_time":"0","stop_time":"0","interval":"1"}]}] }}} To Server
+11-25 02:10:01(1850191872) cos INFO: [Cos_SocketOpen:394]socket<41> open ok
+11-25 02:10:01(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151cdc0, Socket 41,index is 17 serv 3.213.145.94:80 Url o/v3/config/business/0/update
+11-25 02:10:01(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_bus_status.db
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x281510dc0, Socket 39,index 15
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151dea0, Socket 40,index 16
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151cdc0, Socket 41,index 17
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x281510dc0, Socket is 39, Slot index is 15
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151dea0, Socket is 40, Slot index is 16
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151cdc0, Socket is 41, Slot index is 17
+11-25 02:10:01(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3147c00] uiLen[120]
+11-25 02:10:01(1850306560) PID_MECF INFO: [Mecf_SyncEngFinished:215]SYNC_ENG CID:18446744073709551615 [OBJ:0x280731860] SYNC:[SERVICE] success to server,
+11-25 02:10:01(1850306560) PID_TRAS INFO: [Tras_SetUpdateState:729]Streamer UpdateState is 132 
+
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x281510dc0, Socket is 39, Slot is 15
+11-25 02:10:01(1850306560) cos INFO: [Cos_SocketClose:431]socket<39> closed
+11-25 02:10:01(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3013000] uiLen[80]
+11-25 02:10:01(1850306560) PID_MECF INFO: [Mecf_SyncBusFinished:209]SYNC_BUS CID:18446744073709551615 [OBJ:0x28002d8c0] [PID:7] synced success to server
+11-25 02:10:01(1850306560) PID_TRAS INFO: [Tras_SetUpdateState:729]Streamer UpdateState is 516 
+
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151dea0, Socket is 40, Slot is 16
+11-25 02:10:01(1850306560) cos INFO: [Cos_SocketClose:431]socket<40> closed
+11-25 02:10:01(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x315f000] uiLen[80]
+11-25 02:10:01(1850306560) PID_MECF INFO: [Mecf_SyncBusFinished:209]SYNC_BUS CID:18446744073709551615 [OBJ:0x28002dd40] [PID:33] synced success to server
+11-25 02:10:01(1850306560) PID_TRAS INFO: [Tras_SetUpdateState:729]Streamer UpdateState is 516 
+
+11-25 02:10:01(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151cdc0, Socket is 41, Slot is 17
+11-25 02:10:01(1850306560) cos INFO: [Cos_SocketClose:431]socket<41> closed
+11-25 02:10:01(1850421248) PID_TRAS INFO: [TrasServer_SendInfoPubRequest:671]Tras_Server Send State Pub Request PubState is 0, UpdateState is 644
+11-25 02:10:02(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:924]TrasServer_InfoPub response 0
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_SyncEngRmvFinished:567]SYNC_ENG Rmv 18446744073709551615 [OBJ:0x280731860] SYNC:[SERVICE]
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_SyncBusRmvFinished:119]SYNC_BUS Rmv 18446744073709551615 [OBJ:0x28002d8c0] BusSync 
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_SyncBusRmvFinished:119]SYNC_BUS Rmv 18446744073709551615 [OBJ:0x28002dd40] BusSync 
+11-25 02:10:02(1850191872) cos ERR: [Cios_FileRmv:70]remove file /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_status.db failed
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_SyncEngRmvFile:205]SYNC_FILE Rmv /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_status.db
+11-25 02:10:02(1850191872) cos ERR: [Cios_FileRmv:70]remove file /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_status.bak failed
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_SyncFileEngStatus:364]SYNC_FILE [18446744073709551615] Sync Finished No Status Content
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_service.db
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130c9a0] [63] SEND:{"MD":2,"CID":"84010959","ID":"21","UT":"6","PID":"0","RT":"0"}
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130c9a0] CMD TYPE:1  Content:6
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x28130cb00] BroadCast [ENG] SERVICE [PUSH]
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130cb00] [375] SEND:{"MD":1,"CID":"84010959","ID":"29","UT":"6","RT":"1","CT":{"cid":"84010959","service":{"sign":"9501","S_CLOUD":{"flag":"1"},"S_PUSH_GIF":{"flag":"1"},"S_FACE":{"flag":"1"},"S_CAPTURE":{"flag":"0"},"S_PUSH":{"flag":"1","mode":"1","token":""},"S_EMAIL":{"flag":"0","email":"","sendemail":"","sendhost":"","sendpswd":"","sendport":"0"},"S_MESSAGE":{"flag":"1","rsvcount":"0"}}}}
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130cb00] CMD TYPE:1  Content:6
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x281309130] [63] SEND:{"MD":2,"CID":"84010959","ID":"22","UT":"0","PID":"7","RT":"0"}
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x281309130] CMD TYPE:0  Content:7
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdSyncBusBroadCast:1572]MECF_CMD SEND [18446744073709551615] [0x28130f440] BROADCAST [BUS] [PUSH]
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f440] [154] SEND:{"MD":1,"CID":"84010959","ID":"0","PID":"7","RT":"1","CT":{"B_SENSOR":{"sign":"9500","sensors_setflag":"1","noticecb_flag":"0","count":"0","sensors":[]}}}
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130f440] CMD TYPE:0  Content:7
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f4f0] [64] SEND:{"MD":2,"CID":"84010959","ID":"23","UT":"0","PID":"33","RT":"0"}
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 85100824 [0x28130f4f0] CMD TYPE:0  Content:33
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdSyncBusBroadCast:1572]MECF_CMD SEND [18446744073709551615] [0x28130f5a0] BROADCAST [BUS] [PUSH]
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x28130f5a0] [490] SEND:{"MD":1,"CID":"84010959","ID":"0","PID":"33","RT":"1","CT":{"B_ALARMRECORD":{"sign":"9500","auto_del":"1","del_days":"0","max_time":"30","alarmrecord_flag":"1","cloud_flag":"1","msg_send":"0","msg_cond":"0","msg_interval":"180","infos":[{"index":"0","count":"2","human_detect":"0","face_detect":"0","schedules":[{"enable":"1","weekday_flag":"127","start_time":"0","stop_time":"86399","interval":"1"},{"enable":"1","weekday_flag":"127","start_time":"0","stop_time":"0","interval":"1"}]}] }}}
+11-25 02:10:02(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x28130f5a0] CMD TYPE:0  Content:33
+11-25 02:10:03(1850191872) PID_MECF INFO: [Mecf_SyncEngRmvFile:205]SYNC_FILE Rmv /var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_bus_status.db
+11-25 02:10:03(1850191872) PID_MECF INFO: [Mecf_SyncFileBusStatus:324]SYNC_FILE [18446744073709551615] Sync Finished No Status Content
+11-25 02:10:03(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_tsinf.db
+11-25 02:10:03(1851240448) PID_CBDT INFO: [Cbdt_NtyDetectStatus:47]uiAlarmType:1 uiAlarmId:0,enStatus:1
+11-25 02:10:03(1851240448) PID_CBDT INFO: [Cbdt_TaskProcess:178][0 1] Start 
+11-25 02:10:03(1851240448) rawcache INFO: [Medt_VRaw_CreatRHandle:751] creat raw read handle [0x28073c410],read mode 2,total read cnt 1 frame ts 0 ,end ts 0 data size 0 
+11-25 02:10:03(1851240448) PID_MEMD INFO: [Memd_AlgStart:350][640 X 480] :76800 == 76800
+11-25 02:10:03(1851240448) rawcache INFO: [Medt_VRaw_SetPreRecord:559]pstCacheNode->uStandardNum = 12 
+11-25 02:10:03(1851240448) STR_CACHE INFO: [Medt_VStream_SetPreRecord:1045]Cam:0 Stream:0 set prerecord duration time 2
+11-25 02:10:03(1851240448) STR_CACHE INFO: [Medt_Audio_AllocCacheInfo:259]find the mic id cache info
+11-25 02:10:03(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 3 From srcPid[7]
+
+11-25 02:10:03(1850945536) PID_SA INFO: [-[Rvs_Streamer processAlarmActionMsg:]:1593]processAlarmActionMsg alarmType[1] alarmId[0] alarmCode[1]
+
+11-25 02:10:03(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 10 From srcPid[11]
+
+11-25 02:10:03(1850945536) PID_SA INFO: [-[Rvs_Streamer processVideoStreamStateUpdateMsg:]:1798]processVideoStreamStateUpdateMsg writeFlag[1] channlId[10759490528]
+
+11-25 02:10:03(1850945536) PID_SA INFO: [-[Rvs_Streamer_Media recvVideoCompressStateUpdateNotify:]:1424]SA Streamer recv VideoCompressStateUpdate channelid[-2125411360] writeflag[1] camindex[0] streamindxe[0] and notify UI yuvStream state update
+11-25 02:10:03(1843425280) rawcache INFO: [Medt_VRawCache_AllocNode:335]camera 0 stream 0  cache yuv 12 frames
+11-25 02:10:27(47355904) PID_SA INFO: [-[Rvs_Streamer printMemoryUsedStatus]:553]App has used Memory 75.73M , OS left 48.64M, BatteryLevel 75%, BatteryState Unplugged
+11-25 02:10:29(1850650624) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:10:29(1850650624) cos INFO: [Cos_SocketClose:431]socket<38> closed
+11-25 02:10:29(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:272]socket [4294967295] may err 
+11-25 02:10:29(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:272]socket [4294967295] may err 
+11-25 02:10:29(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:331]Slot:0x281806f00 Slot socket is -1, GOTO: EN_TRAS_SLOT_STATE_CLOSE
+11-25 02:10:29(1850421248) PID_TRAS INFO: [TrasTunnel_SetTunnelSlot:597]Peer BestSlot is Interupt, PeerCid is 85100824, Slot type is 2, Slot state is 48, Slot is 0x281806f00
+11-25 02:10:29(1850421248) PID_TRAS INFO: [Tras_SlotClose:156]To close the Slot, Slot is 0x281806f00.
+11-25 02:10:29(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:331]Slot:0x28180ea00 Slot socket is -1, GOTO: EN_TRAS_SLOT_STATE_CLOSE
+11-25 02:10:29(1850421248) PID_TRAS INFO: [Tras_SlotClose:156]To close the Slot, Slot is 0x28180ea00.
+11-25 02:10:29(1850535936) PID_CBAU INFO: [Cbau_ReportNetChgStatus:136]report lluPeerCid 85100824 uiNetStatus 1 
+11-25 02:10:29(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 11 From srcPid[15]
+
+11-25 02:10:29(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getUIWithTag:]:153]Msg type[11] getUIWithTag [4] error
+11-25 02:10:29(1850945536) PID_SA INFO: [-[Rvs_Streamer processNetworkStatus:]:990]processNetworkStatus peerCID[-1] netStatus[1]
+11-25 02:10:32(1850421248) PID_TRAS INFO: [TrasBase_ProcLanSearch:66]lansearch peercid 85100824 local 84010959 ssid 
+11-25 02:10:32(1850421248) PID_MECF INFO: [Mecf_ParamGet_OsType:517]CFG_OP [18446744073709551615] Get OsType:2
+11-25 02:10:32(1850421248) cos INFO: [Cos_SocketOpen:394]socket<6> open ok
+11-25 02:10:32(1850421248) cos INFO: [Cos_SocketClose:431]socket<6> closed
+11-25 02:10:32(1850421248) PID_TRAS INFO: [TrasLanSearch_ProcRecv:68]Broadcast peercid 85100824 msgtype 1 ssid  
+11-25 02:10:32(1850421248) PID_TRAS INFO: [TrasTunnel_CreateSlot:517]Start Create slot, PeerCid is 85100824, SlotType is 1, Slot is 0x28180b300.
+11-25 02:10:32(1850421248) PID_TRAS INFO: [TrasTunnel_ToConn:446]PeerCid is 85100824 to Create local slot. LocalIP is 192.168.1.97, Port is 6792, SlotCount is 1
+11-25 02:10:32(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:272]socket [4294967295] may err 
+11-25 02:10:32(1850421248) cos INFO: [Cos_SocketOpen:394]socket<6> open ok
+11-25 02:10:32(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:229]Slot start to Connect, SlotType is 1, Slot is 0x28180b300. Slot socket is 6.
+11-25 02:10:33(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:243]Slot Connected, SlotType is 1, Slot is 0x28180b300. Slot socket is 6.
+11-25 02:10:33(1850421248) PID_TRAS INFO: [TrasTunnel_SendTestBuffer:410]Tunnel CID:85100824 Slot is TESTING
+11-25 02:10:33(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:289]Slot Start to Testing, SlotType is 1, Slot is 0x28180b300. Slot socket is 6.
+11-25 02:10:33(1850421248) cos INFO: [Cos_SocketAccept:542]socket<36> accepted
+11-25 02:10:33(1850421248) PID_TRAS INFO: [TrasServer_ProcListenAccept:77]Received connect in Slot, Slot is 0x281817200, SlotCount is 2
+11-25 02:10:33(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:300]Slot Tested, SlotType is 1, Slot is 0x28180b300. Slot socket is 6.
+11-25 02:10:33(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:318]Slot Used, SlotType is 1, Slot is 0x28180b300. Slot socket is 6.
+11-25 02:10:33(1850421248) PID_TRAS INFO: [TrasTunnel_SetTunnelSlot:572]Peer Set the BestSlot, PeerCid is 85100824, Slot type is 1, Slot is 0x28180b300
+11-25 02:10:33(1850535936) PID_MECF INFO: [Mecf_SetOnlineStatus:901][85100824] [3.3.6] 4 ON-LINE
+11-25 02:10:33(1850535936) PID_MECF INFO: [Mecf_MemAttentionAdd:415][85100824] Last Online Time:1574669433 
+11-25 02:10:33(1850535936) PID_CBAU INFO: [Cbau_ReportPeerDevAutherStatus:120]report peer dev 85100824 SSID  auther status 3:peer dev can use Code 0
+11-25 02:10:33(1850535936) PID_TRAS INFO: [TrasTunnel_ProcessEvent:163]Callback PeerState CID:85100824, State: EN_TRAS_SUB_STATE_CANUSE
+11-25 02:10:33(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 5 From srcPid[15]
+
+11-25 02:10:33(1850945536) PID_SA INFO: [-[Rvs_Streamer processViewerPresenceStateUpdateMsg:]:1112]processStreamerPresenceStateUpdateMsg cid[85100824] presenceState[3]
+
+11-25 02:10:33(1846292480) PID_SA INFO: [-[Rvs_Streamer processViewerPresenceStateUpdateMsg:]_block_invoke:1161]processStreamerPresenceStateUpdateMsg cid[85100824] oldsessionstate[2]
+
+11-25 02:10:34(1850650624) PID_MECF INFO: [Mecf_AddKeyId:1142]Add Key Id:85100824 Type:1
+11-25 02:10:34(1850650624) PID_MECF INFO: [Mecf_MemKeyIdAdd:241]KeyId:85100824 Is Exist
+11-25 02:10:34(1850650624) PID_MECF INFO: [Mecf_Load:566]Need Nty [85100824] My Version Changed [2 1]
+11-25 02:10:34(1850650624) PID_MECF INFO: [Mecf_Load:572][85100824] Reload Cfg
+11-25 02:10:34(1850650624) PID_MECF INFO: [Mecf_SetAuthStatus:871][85100824] Auth Status Change From 1 To 1,Time[1574669360-1574669434]
+11-25 02:10:34(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:300]Slot Tested, SlotType is 2, Slot is 0x281817200. Slot socket is 36.
+11-25 02:10:34(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:318]Slot Used, SlotType is 2, Slot is 0x281817200. Slot socket is 36.
+11-25 02:10:34(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x103150c00] [374] SEND:{"MD":1,"CID":"84010959","ID":"30","UT":"0","RT":"1","CT":{"cid":"84010959","service":"0","os_type":"2","sign":"9427","plat_version":"3.3.6","app_id":"19","info_serv":"http://3.213.145.94:80/info","user_serv":"","push_serv":"http://3.213.145.94:80/message","auth_serv":"3.213.145.94:80","comm_serv":"90.84.241.1:3678","cloud_serv":"http://13.52.54.27:80/ichanomanager/aws"}}
+11-25 02:10:35(1850191872) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/85100824/sys/cfg_eng_certificate.db
+11-25 02:11:01(1851060224) PID_CBMD_PLAYER INFO: [Cbmd_PlayerBus_Task:755]Cbmd_PlayerBus_Task alive uiNowTime[2711431519] uiStartTime[2711277770]
+11-25 02:11:10(1847439360) rawcache INFO: [Medt_VRaw_WriteData:490]vraw 0x28150cbe0 write data to cache 162106 pstCacheNode->uiBchgFlag = 0 
+11-25 02:11:13(1850650624) PID_CBCD_STREAMER INFO: [Cbcd_OnRecvCmd:53]recv cmd from 85100824: {"c":{"ci":-1,"bt":"2013-01-01 00:00:00","et":"2100-01-01 00:00:00","ft":2,"pi":1,"np":15},"t":9,"i":"260000004"}
+11-25 02:11:13(1850650624) PID_CBCD_STREAMER INFO: [Cbcd_DispatchMsg:23]recv cmd from 85100824, len=114
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:75]to proc metf msg: 3
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:104]to call handler for msg from 85100824
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:116]msg from 85100824 processed(OK)
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcSelfMsg:197]self msg processed: 3
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cos_PidMgrProcMsg:100]msg-proc:0x831d3280-3 has proced  from PID_CBCD_STREAMER
+11-25 02:11:13(1850077184) PID_CBRD INFO: [Cbrd_MgrProcCbcdMsg:139][S_FILE] Opration:0x102a0ecb0 Select File PageSize:15 Index:0
+11-25 02:11:13(1850077184) PID_CBRD INFO: [Cos_PidMgrProcMsg:100]msg-proc:0x831d0100-1 has proced  from PID_CBCD_STREAMER
+11-25 02:11:13(1851469824) PID_CBRD INFO: [Cbrd_MgrFileSelect:799][S_FILE] Opration:0x102a0ecb0 Begin of file select Cam:-1 Mode[2] Type[2] PageSize:15 Index:0
+11-25 02:11:13(1851469824) PID_MERD INFO: [Merd_SelectEventEx:692]0_4294967295 Select Sign:2 Mode:1 PageSize:15 Index:0
+11-25 02:11:13(1851469824) PID_MERD ERR: [Merd_GetChannelCheckPath:208]call fun:(Merd_GetRootCheckPath) err<1>
+11-25 02:11:13(1851469824) PID_MERD ERR: [Merd_CfgSelect:414]call fun:(Merd_GetChannelCheckPath) err<1>
+11-25 02:11:13(1851469824) PID_CBRD ERR: [Cbrd_Rsp_GetRecordVideoList:203]no pstList
+11-25 02:11:13(1851469824) PID_CBRD INFO: [Cbrd_Rsp_ResultCode:51][RSP CMD]: {"t":10,"i":"260000004","s":30005,"c":null}
+11-25 02:11:13(1850650624) PID_CBCD_STREAMER INFO: [Cbcd_OnRecvCmd:53]recv cmd from 85100824: {"c":{"ci":-1,"bt":"2013-01-01 00:00:00","et":"2100-01-01 00:00:00","ft":1,"pi":1,"np":15},"t":9,"i":"260000005"}
+11-25 02:11:13(1850650624) PID_CBCD_STREAMER INFO: [Cbcd_DispatchMsg:23]recv cmd from 85100824, len=114
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:75]to proc metf msg: 3
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:104]to call handler for msg from 85100824
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcTransferMsg:116]msg from 85100824 processed(OK)
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cbcd_ProcSelfMsg:197]self msg processed: 3
+11-25 02:11:13(1850077184) PID_CBCD_STREAMER INFO: [Cos_PidMgrProcMsg:100]msg-proc:0x831d0100-3 has proced  from PID_CBCD_STREAMER
+11-25 02:11:13(1850077184) PID_CBRD INFO: [Cbrd_MgrProcCbcdMsg:139][S_FILE] Opration:0x102a0ecb0 Select File PageSize:15 Index:0
+11-25 02:11:13(1850077184) PID_CBRD INFO: [Cos_PidMgrProcMsg:100]msg-proc:0x831d3e80-1 has proced  from PID_CBCD_STREAMER
+11-25 02:11:13(1851469824) PID_CBRD INFO: [Cbrd_MgrFileSelect:799][S_FILE] Opration:0x102a0ecb0 Begin of file select Cam:-1 Mode[2] Type[1] PageSize:15 Index:0
+11-25 02:11:13(1851469824) PID_MERD INFO: [Merd_SelectDescribeEx:890]0_4294967295 Select Sign:1 Mode:1 PageSize:15 Index:0
+11-25 02:11:13(1851469824) PID_MERD ERR: [Merd_GetChannelCheckPath:208]call fun:(Merd_GetRootCheckPath) err<1>
+11-25 02:11:13(1851469824) PID_MERD ERR: [Merd_CfgSelect:414]call fun:(Merd_GetChannelCheckPath) err<1>
+11-25 02:11:13(1851469824) PID_CBRD ERR: [Cbrd_Rsp_GetRecordVideoList:203]no pstList
+11-25 02:11:13(1851469824) PID_CBRD INFO: [Cbrd_Rsp_ResultCode:51][RSP CMD]: {"t":10,"i":"260000005","s":30005,"c":null}
+11-25 02:11:27(47355904) PID_SA INFO: [-[Rvs_Streamer printMemoryUsedStatus]:553]App has used Memory 75.56M , OS left 44.34M, BatteryLevel 75%, BatteryState Unplugged
+11-25 02:11:30(47355904) PID_SA INFO: [-[Rvs_Streamer applicationDidEnterBackground:]:418]SA Streamer recv applicationDidEnterBackground notify
+11-25 02:11:30(47355904) PID_SA INFO: [-[Sa_Streamer_AuthInfo setLocalIp:]:77]SA Streamer setLocalIp [0.0.0.0]
+11-25 02:11:30(47355904) PID_TRAS INFO: [TrasServer_SetLocalIP:203]Reset Local IP 0.0.0.0 
+
+11-25 02:11:30(1850650624) cos ERR: [Cios_SocketSelect:507]socket select:iErrCode<9>
+11-25 02:11:30(1850650624) cos ERR: [Cos_SocketSelect:470]call fun:(pfunSockSelect) err<9>
+11-25 02:11:30(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:293]Select Error! Tunnel Select Error.
+11-25 02:11:30(1850421248) cos INFO: [Cos_SocketClose:431]socket<6> closed
+11-25 02:11:30(1850421248) cos INFO: [Cos_SocketClose:431]socket<36> closed
+11-25 02:11:30(1850421248) PID_TRAS INFO: [TrasBase_CloseAllSlotSocket:282][TrasBase_CloseAllSlotSocket, 282]
+11-25 02:11:30(1850421248) cos INFO: [Cos_SocketClose:431]socket<35> closed
+11-25 02:11:30(1850421248) PID_TRAS INFO: [TrasBase_ProcStop:52]Base Proc Stop.Clear All tunnel.
+11-25 07:56:14(1851584512) PID_CBRD WARN: [Cbrd_Cloud_SVideoProc:842]CBRD[SVideo] not support cloud
+11-25 07:56:14(47355904) PID_SA INFO: [-[Rvs_Streamer printMemoryUsedStatus]:553]App has used Memory 35.89M , OS left 91.12M, BatteryLevel 75%, BatteryState Unplugged
+11-25 07:56:14(1850191872) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 18446744073709551615 Need [Query:BUS-SUPPORT]
+11-25 07:56:14(1850191872) PID_MECF INFO: [Mecf_NtyQuery:544]QUERY_INF 85100824 Need [Query:BUS-SUPPORT]
+11-25 07:56:15(47355904) PID_SA INFO: [-[Rvs_Streamer applicationWillEnterForeground:]:427]SA Streamer recv applicationWillEnterForeground notify
+11-25 07:56:15(47355904) PID_SA INFO: [-[Sa_Streamer_AuthInfo setLocalIp:]:77]SA Streamer setLocalIp [192.168.1.32]
+11-25 07:56:15(47355904) PID_TRAS INFO: [TrasServer_SetLocalIP:203]Reset Local IP 192.168.1.32 
+
+11-25 07:56:15(1850421248) PID_TRAS ERR: [TrasLansearch_StartSearch:145]IPV6 and avs Not Search.
+11-25 07:56:15(1850421248) PID_TRAS INFO: [TrasBase_FlowThread:343]proc resetip flag 
+11-25 07:56:15(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:272]socket [4294967295] may err 
+11-25 07:56:15(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:272]socket [4294967295] may err 
+11-25 07:56:15(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:272]socket [4294967295] may err 
+11-25 07:56:15(1850650624) PID_TRAS ERR: [TrasTunnel_ProcessRecv:272]socket [4294967295] may err 
+11-25 07:56:15(1850421248) PID_MECF INFO: [Mecf_ParamGet_CountryId:1733]CFG_OP [18446744073709551615] Get COUNTRY ID:US 
+11-25 07:56:15(1850421248) PID_MECF INFO: [Mecf_ParamGet_Language:1696]CFG_OP [18446744073709551615] Get Language:2 
+11-25 07:56:15(1850421248) PID_MECF INFO: [Mecf_ParamGet_Language:1696]CFG_OP [18446744073709551615] Get Language:2 
+11-25 07:56:15(1850421248) PID_MECF INFO: [Mecf_ParamGet_CountryId:1733]CFG_OP [18446744073709551615] Get COUNTRY ID:US 
+11-25 07:56:15(1850421248) PID_TRAS INFO: [TrasAddr_GetServAddr:130]Get addr Language =2 nettype 0 
+11-25 07:56:15(1850421248) PID_TRAS INFO: [TrasBase_ProcNeedReq:209]Get ServerIP Success.
+11-25 07:56:16(1850421248) PID_TRAS ERR: [TrasServer_SendHeartBeatRequest:824]Server Socket SendHeartbeat Error
+11-25 07:56:16(1850421248) PID_TRAS ERR: [TrasServer_ProcState:504]Server Socket SendBuffer Error! ServerState goto EN_TRAS_SERVER_STATE_INTERUPT
+11-25 07:56:16(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:331]Slot:0x28180b300 Slot socket is -1, GOTO: EN_TRAS_SLOT_STATE_CLOSE
+11-25 07:56:16(1850421248) PID_TRAS ERR: [Tras_SlotSendHeartbeat:710]Slot SendHeartbeat, Slot is 0x28180b300, Slot Socket is -1
+11-25 07:56:16(1850421248) PID_TRAS INFO: [Tras_SlotClose:156]To close the Slot, Slot is 0x28180b300.
+11-25 07:56:16(1850421248) PID_TRAS INFO: [Tras_SlotProcessState:331]Slot:0x281817200 Slot socket is -1, GOTO: EN_TRAS_SLOT_STATE_CLOSE
+11-25 07:56:16(1850421248) PID_TRAS INFO: [Tras_SlotClose:156]To close the Slot, Slot is 0x281817200.
+11-25 07:56:16(1850421248) cos ERR: [Cios_SocketAccept:594]accept error <9>.
+11-25 07:56:16(1850421248) cos ERR: [Cos_SocketAccept:540]call fun:(pfunSockAccept) err<9>
+11-25 07:56:16(1850421248) cos INFO: [Cos_SocketClose:431]socket<18> closed
+11-25 07:56:16(1850421248) PID_TRAS ERR: [TrasServer_ProcListenAccept:69]Accept Error.
+11-25 07:56:16(1850421248) cos ERR: [Cios_SocketRecvFrom:750]recvfrom error <57>.
+11-25 07:56:16(1850421248) cos ERR: [Cos_SocketRecvFrom:618]call fun:(pfunSockRecvFrom) err<57>
+11-25 07:56:16(1850421248) cos INFO: [Cos_SocketClose:431]socket<34> closed
+11-25 07:56:16(1850421248) cos INFO: [Cos_SocketOpen:394]socket<13> open ok
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_Listen:247]Listen success, the port is 10648.
+11-25 07:56:16(1850421248) cos INFO: [Cos_SocketOpen:394]socket<17> open ok
+11-25 07:56:16(1850421248) PID_TRAS ERR: [TrasLansearch_StartSearch:145]IPV6 and avs Not Search.
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ProcState:540]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_INIT
+11-25 07:56:16(1850535936) PID_CBAU INFO: [Cbau_ReportSelfDevAutherStatus:104]report self dev auther status 4:dev connect server uiCode 0
+11-25 07:56:16(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_INIT
+11-25 07:56:16(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 0 From srcPid[15]
+
+11-25 07:56:16(1850945536) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]:1010]processAuthStateUpdateMsg authState[4] errorCode[0]
+
+11-25 07:56:16(1846865920) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]_block_invoke:1080]processAuthStateUpdateMsg oldAuthState[1] oldprogress[0] oldErrCode[0]
+
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ProcState:354]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_STARTCONN
+11-25 07:56:16(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_STARTCONN
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_Connect:256]ServerIP is 90.84.241.1, Port is 3678 failcnt 0 status 0 local cid 84010959 
+11-25 07:56:16(1850421248) cos INFO: [Cos_SocketOpen:394]socket<18> open ok
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ProcState:368]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_CONNECTING
+11-25 07:56:16(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_CONNECTING
+11-25 07:56:16(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_CONNECTED
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_SendAllocateRequest:606]TrasServer Send Allocate Request. 
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ProcState:417]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_ALLOCING
+11-25 07:56:16(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_ALLOCING
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:909]TrasServer_ProcessAllocateResponse ResultFlag: 0
+
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ProcState:464]GOTO SERVER_STATUS: EN_TRAS_SERVER_STATE_ALLOCTED
+11-25 07:56:16(1850535936) PID_MECF INFO: [Mecf_ParamGet_RegistFlag:199]CFG_OP Get AuthChangeFlag:1
+11-25 07:56:16(1850535936) PID_CBAU INFO: [Cbau_ReportSelfDevAutherStatus:104]report self dev auther status 5:dev online uiCode 0
+11-25 07:56:16(1850535936) PID_TRAS INFO: [TrasBase_EventThread:382]ServerState Event Callback: EN_TRAS_SERVER_STATE_ALLOCTED
+11-25 07:56:16(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 0 From srcPid[15]
+
+11-25 07:56:16(1850945536) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]:1010]processAuthStateUpdateMsg authState[5] errorCode[0]
+
+11-25 07:56:16(1844228096) PID_SA INFO: [-[Rvs_Streamer processAuthStateUpdateMsg:]_block_invoke:1080]processAuthStateUpdateMsg oldAuthState[2] oldprogress[0] oldErrCode[0]
+
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_SendInfoPubRequest:654]Tras_Server Send InfoPub Request LocalIP Addr InfoPub: 192.168.1.32
+
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_SendInfoPubRequest:671]Tras_Server Send State Pub Request PubState is 0, UpdateState is 0
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:924]TrasServer_InfoPub response 0
+11-25 07:56:16(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:924]TrasServer_InfoPub response 0
+11-25 07:56:17(1850191872) PID_MECF INFO: [Mecf_QueryBusSupport:349]QUERY_INF [18446744073709551615] [http://3.213.145.94:80/info] [/info/v3/config/support/0/business] [67] Query {"operator":"84010959","cid":"84010959","ts":"2019-11-25 03:08:53"}
+11-25 07:56:17(1850191872) cos INFO: [Cos_SocketOpen:394]socket<34> open ok
+11-25 07:56:17(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x281511fe0, Socket 34,index is 18 serv 3.213.145.94:80 Url o/v3/config/support/0/business
+11-25 07:56:17(1850191872) PID_MECF INFO: [Mecf_QueryBusSupport:349]QUERY_INF [85100824] [http://13.52.54.27:80/info] [/info/v3/config/support/1/business] [67] Query {"operator":"84010959","cid":"85100824","ts":"2019-11-24 07:35:24"}
+11-25 07:56:17(1850191872) cos INFO: [Cos_SocketOpen:394]socket<38> open ok
+11-25 07:56:17(1850191872) PID_HTTP INFO: [Tras_Httpclient_SendAsyncPostRequest:780]Slot is 0x28151d7c0, Socket 38,index is 19 serv 13.52.54.27:80 Url o/v3/config/support/1/business
+11-25 07:56:17(1843539968) PID_CBSV INFO: [Cbsv_TaskMgrProc:548]Cbsv alive
+11-25 07:56:17(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x281511fe0, Socket 34,index 18
+11-25 07:56:17(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:414]Http Socket Connected Slot 0x28151d7c0, Socket 38,index 19
+11-25 07:56:18(1844342784) PID_MECF INFO: [Mecf_ParamGet_DeviceIP:1946]CFG_OP [18446744073709551615] Get DEVICE IP:72.191.49.113 
+11-25 07:56:18(1850421248) PID_TRAS INFO: [TrasServer_SendInfoPubRequest:654]Tras_Server Send InfoPub Request LocalIP Addr InfoPub: 192.168.1.32
+
+11-25 07:56:18(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x28151d7c0, Socket is 38, Slot index is 19
+11-25 07:56:18(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x3176000] uiLen[40]
+11-25 07:56:18(1850306560) PID_MECF INFO: [Mecf_QueryFinished:198]QUERY_INF CID:85100824 [Query:BUS-SUPPORT] Success String:{"code":1004,"desc":"No data updated!"} 
+11-25 07:56:18(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x28151d7c0, Socket is 38, Slot is 19
+11-25 07:56:18(1850306560) cos INFO: [Cos_SocketClose:431]socket<38> closed
+11-25 07:56:18(1850421248) PID_TRAS INFO: [TrasServer_ParseServerMsg:924]TrasServer_InfoPub response 0
+11-25 07:56:18(1850306560) PID_HTTP INFO: [Tras_HttpProcessLoop:438]Http Finished Slot is 0x281511fe0, Socket is 34, Slot index is 18
+11-25 07:56:18(1850306560) PID_TRAS INFO: [Tras_Http_DecrBuffer:55]Tras_Http_DecrBuffer pucBuf[0x38a9000] uiLen[264]
+11-25 07:56:18(1850306560) PID_BASE INFO: [Cbbs_NtySendMsg:112]18446744073709551615 7 Changed [0]
+11-25 07:56:18(1850306560) PID_MECF INFO: [Mecf_SyncEngSaveFile:247]SYNC_FILE Save File:/var/mobile/Containers/Data/Application/5DAB712A-EE03-4808-BBC7-B59695B87DB7/Documents/Config/conf/81b3a383f0fe81684a869437699c4e89/18446744073709551615/sys/cfg_eng_support.db
+11-25 07:56:18(1850945536) PID_SA INFO: [-[Rvs_Streamer onRecvMsg:]:666]SA Recv a Msg 1 From srcPid[0]
+
+11-25 07:56:18(1850945536) PID_SA ERR: [-[Sa_Streamer_Msg getXXLSizeWithTag:]:211]Msg type[1] getXXLSizeWithTag [0] error
+11-25 07:56:18(1850945536) PID_SA INFO: [-[Rvs_Streamer processConfigChangeMsg:]:787]processConfigChangeMsg cid[18446744073709551615] changetype[7]
+
+11-25 07:56:18(1850306560) PID_MECF INFO: [Mecf_CmdAdd:131]MECF_CMD [18446744073709551615] Add [0x281309340] [ENG] SUPPORT [PUSH] [0] Message[0]
+11-25 07:56:18(1850306560) PID_MECF INFO: [Mecf_QueryFinished:198]QUERY_INF CID:18446744073709551615 [Query:BUS-SUPPORT] Success String:{"code":1000,"data":{"business":{"B_TIMERECORD":{},"B_SHORTRECORD":{},"B_SENSOR":{"S_EMAIL":{"interval":"180"},"S_PUSH":{"interval":"180"}},"B_ALARMRECORD":{"S_EMAIL":{"interval":"180"},"S_PUSH":{"interval":"180"}}},"cid":"84010959"},"ts":"2019-11-25 03:08:53"}   
+11-25 07:56:18(1850306560) PID_HTTP INFO: [Tras_HttpProcessSlot:509]Http  Finished Slot is 0x281511fe0, Socket is 34, Slot is 18
+11-25 07:56:18(1850306560) cos INFO: [Cos_SocketClose:431]socket<34> closed
+11-25 07:56:20(1850191872) PID_MECF INFO: [Mecf_CmdPushEngBroadCast:1331]MECF_CMD SEND [18446744073709551615] [0x281309340] BroadCast [ENG] SUPPORT [PUSH]
+11-25 07:56:20(1850191872) PID_MECF INFO: [Mecf_Cmd_Send:1150]MECF_CMD SEND [85100824] [0x281309340] [275] SEND:{"MD":1,"CID":"84010959","ID":"31","UT":"7","RT":"1","CT":{"business":{"B_TIMERECORD":{},"B_SHORTRECORD":{},"B_SENSOR":{"S_EMAIL":{"interval":"180"},"S_PUSH":{"interval":"180"}},"B_ALARMRECORD":{"S_EMAIL":{"interval":"180"},"S_PUSH":{"interval":"180"}}},"cid":"84010959"}   }
+11-25 07:56:20(1850191872) PID_TRAS ERR: [Tras_SendCfgChannelData:644]peer cid 85100824 send cfg err
+11-25 07:56:20(1850191872) PID_MECF INFO: [Mecf_CmdRmvFinished:1715]MECF_CMD Rmv 18446744073709551615 [0x281309340] CMD TYPE:1  Content:7
+11-25 07:56:21(47355904) PID_APP INFO: [-[Rvs_Streamer logWithLogLevel:LogFormat:]:239]AdMobAdsManager: cid is online five second
+11-25 07:56:21(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 1 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 07:56:21(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 128 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 07:56:21(47355904) PID_MECF INFO: [Mecf_GetChargeById:777][18446744073709551615] [0x0] Get 256 Charge Count:[0] Find[0] Id:0 Date: Mid: PlatForm: Flag:0 Status:0
+11-25 07:56:21(47355904) PID_APP ERR: [-[Rvs_Streamer logWithLogLevel:LogFormat:]:247]AdMobAdsManager: ad is not ready
+11-25 07:56:25(1850191872) PID_MECF INFO: [Mecf_QueryRmvFinished:706]QUERY_INF Rmv 18446744073709551615  Query [0x281825100]
+11-25 07:56:25(1850191872) PID_MECF INFO: [Mecf_QueryRmvFinished:706]QUERY_INF Rmv 85100824  Query [0x28181a500]
+11-25 07:56:45(1851060224) PID_CBMD_PLAYER INFO: [Cbmd_PlayerBus_Task:755]Cbmd_PlayerBus_Task alive uiNowTime[2732175007] uiStartTime[2711277770]
